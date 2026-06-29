@@ -1,0 +1,512 @@
+================================================================
+TASKFLOW METRICS ANALYST KNOWLEDGE BASE
+================================================================
+Product: TaskFlow — B2B SaaS Project Management
+Customers: 9,764 paying | ARR: $14.88M
+Mobile app usage: DOWN 15% | Conversion: 8.4% (from 11.2%)
+NPS: 38 (down from 45) | Support tickets: UP 25% MoM
+Data source: Product analytics platform
+KB Sections: Engagement Metrics | Conversion Funnels |
+             Retention Cohorts | Performance Benchmarks |
+             Feature Adoption | Mobile vs Desktop Analysis
+================================================================
+
+
+================================================================
+SECTION 1 — ENGAGEMENT METRICS
+================================================================
+Reporting period: January 2026 — May 2026
+================================================================
+
+DAILY & MONTHLY ACTIVE USERS
+------------------------------
+           |   DAU    |   MAU    | DAU/MAU | MoM DAU | MoM MAU
+-----------|----------|----------|---------|---------|--------
+Jan 2026   |  4,210   | 14,820   |  28.4%  |  —      |  —
+Feb 2026   |  4,318   | 15,240   |  28.3%  | +2.6%   | +2.8%
+Mar 2026   |  4,401   | 15,680   |  28.1%  | +1.9%   | +2.9%
+Apr 2026   |  4,389   | 15,910   |  27.6%  | -0.3%   | +1.5%
+May 2026   |  4,272   | 16,140   |  26.5%  | -2.7%   | +1.4%
+
+NOTE: MAU growing (new signups) while DAU declining — existing
+users becoming less active. Engagement depth eroding.
+
+DAU BY PLATFORM (May 2026)
+---------------------------
+Desktop (web):         2,910  (68.1%)
+Mobile iOS:              847  (19.8%)
+Mobile Android:          412   (9.6%)
+Desktop app (Mac/Win):   103   (2.4%)
+Total mobile:          1,259  (29.5%)
+
+MOBILE DAU TREND
+-----------------
+Jan 2026:  1,481 mobile DAU  | Baseline
+Feb 2026:  1,502 mobile DAU  | +1.4%
+Mar 2026:  1,448 mobile DAU  | -3.6%
+Apr 2026:  1,341 mobile DAU  | -7.4%
+May 2026:  1,259 mobile DAU  | -6.1%
+TOTAL DECLINE Jan-May: -14.9% ≈ DOWN 15%
+
+MOBILE SESSION METRICS (May 2026)
+----------------------------------
+Avg session length (mobile):     4.2 min  (Jan baseline: 6.8 min)
+Avg session length (desktop):   18.7 min  (Jan baseline: 17.9 min)
+Sessions per active user (mobile):  2.1/day  (Jan: 3.4/day)
+Sessions per active user (desktop): 3.8/day  (Jan: 3.6/day)
+Mobile crash rate:               4.7%     (Jan baseline: 0.8%)
+Mobile app store rating (iOS):   2.7 stars
+Mobile app store rating (Android): 2.3 stars
+
+AVERAGE SESSION LENGTH BY PLAN (May 2026)
+------------------------------------------
+Plan        | Desktop avg | Mobile avg | Gap
+------------|-------------|------------|-----
+Starter     |  11.4 min   |  3.1 min   | -73%
+Pro         |  17.8 min   |  4.0 min   | -78%
+Business    |  22.3 min   |  5.2 min   | -77%
+Enterprise  |  29.6 min   |  6.8 min   | -77%
+
+NOTE: Mobile session lengths consistently ~77% shorter than
+desktop across all plan tiers. Indicates mobile is used for
+quick checks not deep work — partially by design but gap
+has widened since mobile regression in v4.1.8.
+
+WEEKLY ACTIVE FEATURES (% of DAU using feature, May 2026)
+-----------------------------------------------------------
+Feature                | Desktop | Mobile | Gap
+-----------------------|---------|--------|-------
+Task creation          |  91%    |  48%   | -43pp
+Task status update     |  88%    |  61%   | -27pp
+Comments               |  74%    |  38%   | -36pp
+File attachments       |  68%    |  19%   | -49pp
+Dashboard view         |  62%    |  22%   | -40pp
+Gantt chart            |  54%    |   8%   | -46pp
+Custom fields          |  51%    |  11%   | -40pp
+Reporting              |  47%    |   4%   | -43pp
+Automations            |  38%    |   6%   | -32pp
+Integrations           |  35%    |   9%   | -26pp
+
+STICKINESS SCORE (DAU/MAU) TREND
+----------------------------------
+Industry benchmark (project mgmt SaaS): 30-35%
+TaskFlow Jan 2026:  28.4%  (below benchmark)
+TaskFlow May 2026:  26.5%  (widening gap from benchmark)
+YoY change:         -3.1pp
+
+PAGES / SCREENS PER SESSION (May 2026)
+---------------------------------------
+Desktop:  8.4 screens/session
+Mobile:   2.9 screens/session
+Benchmark (mobile):  5.0+ screens/session
+
+
+================================================================
+SECTION 2 — CONVERSION FUNNELS
+================================================================
+
+FREE-TO-PAID CONVERSION OVERVIEW
+----------------------------------
+           | Free Signups | Converted | Conv Rate | MoM Change
+-----------|--------------|-----------|-----------|------------
+Jan 2026   |    2,841     |    318    |   11.2%   |  Baseline
+Feb 2026   |    2,990     |    319    |   10.7%   |  -0.5pp
+Mar 2026   |    3,148     |    311    |    9.9%   |  -0.8pp
+Apr 2026   |    3,307     |    289    |    8.7%   |  -1.2pp
+May 2026   |    3,512     |    295    |    8.4%   |  -0.3pp
+
+NOTE: Free signups accelerating (marketing working) but
+conversion rate declining — acquisition is not the problem,
+activation and onboarding are.
+
+FREE-TO-PAID CONVERSION FUNNEL (May 2026)
+------------------------------------------
+Step                      | Users  | Drop-off | Conv %
+--------------------------|--------|----------|-------
+1. Free account created   | 3,512  |    —     | 100.0%
+2. Email verified         | 3,021  |   -491   |  86.0%
+3. Workspace setup done   | 1,879  | -1,142   |  53.5%  ← BIG DROP
+4. First project created  | 1,312  |   -567   |  37.4%
+5. Team member invited    |   847  |   -465   |  24.1%
+6. Feature activated*     |   521  |   -326   |  14.8%
+7. Upgraded to paid       |   295  |   -226   |   8.4%
+
+*Feature activation = used 3+ features in first 14 days
+
+FUNNEL COMPARISON — JAN vs MAY 2026
+--------------------------------------
+Step                  | Jan Rate | May Rate | Change
+----------------------|----------|----------|--------
+Email verified        |   91.2%  |   86.0%  | -5.2pp
+Workspace setup       |   71.4%  |   53.5%  | -17.9pp ← worst drop
+First project         |   58.3%  |   37.4%  | -20.9pp ← worst drop
+Team invited          |   42.1%  |   24.1%  | -18.0pp
+Feature activated     |   28.7%  |   14.8%  | -13.9pp
+Upgraded to paid      |   11.2%  |    8.4%  | -2.8pp
+
+KEY INSIGHT: The conversion problem is an activation problem.
+Steps 3 and 4 (workspace setup and first project creation) have
+degraded most severely — both directly linked to onboarding friction.
+Users who complete step 5 (invite a team member) convert at 34.8%
+suggesting collaboration trigger is the key activation event.
+
+TIME TO CONVERSION (May 2026)
+-------------------------------
+Converted within day 1:    4%
+Converted within day 3:   11%
+Converted within day 7:   28%
+Converted within day 14:  61%
+Converted day 15-30:      34%
+Converted after day 30:    5%
+Median time to convert:   9.2 days
+Avg time to convert:      11.4 days
+
+CONVERSION BY ACQUISITION CHANNEL (May 2026)
+----------------------------------------------
+Channel              | Conv Rate | Volume | Index vs avg
+---------------------|-----------|--------|-------------
+Product Hunt / review|   14.2%   |   312  |  1.69x
+Referral (existing)  |   13.1%   |   284  |  1.56x
+Organic search       |   10.3%   |   891  |  1.23x
+Content / blog       |    8.8%   |   524  |  1.05x
+Paid social          |    7.2%   |   748  |  0.86x
+Paid search          |    6.9%   |   612  |  0.82x
+Direct / unknown     |    5.8%   |   141  |  0.69x
+
+NOTE: Referral and review-site users convert at 1.5-1.7x
+average — existing customers as advocates is highest
+leverage acquisition lever.
+
+CONVERSION BY ONBOARDING PATH (May 2026)
+------------------------------------------
+Path                          | Conv Rate
+------------------------------|----------
+CSM-assisted onboarding       |   22.4%  ← 2.7x average
+Self-serve + template used    |   12.8%  ← 1.5x average
+Self-serve + no template      |    5.1%  ← 0.6x average
+Mobile-only onboarding        |    3.2%  ← 0.4x average
+
+KEY INSIGHT: CSM-assisted onboarding converts at 2.7x the
+average rate. Mobile-only onboarding converts at 0.4x.
+These two data points frame the entire conversion problem.
+
+UPGRADE PATH BY PLAN (May 2026)
+---------------------------------
+Starter → Pro upgrade:       62% of conversions
+Starter → Business:          24% of conversions
+Starter → Enterprise:         4% of conversions
+Free → Business (skip Pro):  10% of conversions
+Avg first paid plan ARR:     $1,524/year
+
+
+================================================================
+SECTION 3 — RETENTION COHORTS
+================================================================
+
+MONTHLY COHORT RETENTION (% still active by month)
+----------------------------------------------------
+Cohort     | M0   | M1   | M2   | M3   | M6   | M12
+-----------|------|------|------|------|------|------
+Jan 2025   | 100% | 74%  | 61%  | 54%  | 44%  | 38%
+Mar 2025   | 100% | 72%  | 59%  | 51%  | 41%  |  —
+Jun 2025   | 100% | 70%  | 56%  | 48%  | 38%  |  —
+Sep 2025   | 100% | 68%  | 53%  | 45%  |  —   |  —
+Jan 2026   | 100% | 64%  | 49%  | 41%  |  —   |  —
+Mar 2026   | 100% | 61%  | 44%  |  —   |  —   |  —
+May 2026   | 100% | 57%  |  —   |  —   |  —   |  —
+
+TREND: M1 retention declining from 74% (Jan 2025) to 57%
+(May 2026) — a 17pp drop over 16 months. Month-1 is the
+most critical indicator. This trend correlates with
+worsening onboarding and mobile experience.
+
+INDUSTRY BENCHMARK COMPARISON
+-------------------------------
+Metric              | TaskFlow | B2B SaaS Benchmark | Status
+--------------------|----------|---------------------|-------
+M1 retention        |   57%    |      65-70%         | BELOW
+M3 retention        |   41%    |      45-55%         | BELOW
+M6 retention        |   38%    |      40-50%         | BELOW
+M12 retention       |   38%    |      35-45%         | AT LOW END
+Annual churn rate   |   18.2%  |      10-14%         | HIGH
+
+RETENTION BY PLAN TIER (M3, May 2026 cohorts)
+-----------------------------------------------
+Enterprise:  72%  ← strong
+Business:    58%  ← acceptable
+Pro:         44%  ← concerning
+Starter:     29%  ← critical
+
+NOTE: Starter plan M3 retention at 29% indicates significant
+churn risk in the long-tail SMB segment. Many Starter users
+churn before realising product value.
+
+RETENTION BY ONBOARDING EXPERIENCE (M3)
+-----------------------------------------
+CSM-assisted:        68%  retention at M3
+Template-first:      54%  retention at M3
+Self-serve:          38%  retention at M3
+No onboarding:       21%  retention at M3
+
+RETENTION BY MOBILE USAGE PATTERN (M3)
+----------------------------------------
+Primary desktop user:          61% retention
+Mixed desktop + mobile user:   58% retention
+Primary mobile user:           31% retention  ← at risk
+
+KEY INSIGHT: Users who rely primarily on mobile churn at
+2x the rate of desktop users. Mobile experience quality
+is a direct retention lever.
+
+EXPANSION REVENUE RETENTION (Net Revenue Retention)
+-----------------------------------------------------
+Jan 2026:  108%  NRR (expanding accounts > churn)
+Feb 2026:  106%  NRR
+Mar 2026:  104%  NRR
+Apr 2026:  101%  NRR
+May 2026:   98%  NRR  ← ALERT: below 100% for first time
+                          (churn now exceeds expansion)
+
+CHURN ANALYSIS — MAY 2026
+---------------------------
+Total churned accounts (May): 94
+Churned ARR (May):            $187,200
+Avg ARR of churned account:   $1,991
+
+Churn reasons (exit survey):
+Mobile app quality:           34%
+Found better alternative:     28%
+Onboarding too difficult:     22%
+Too expensive:                11%
+Outgrew the product:           3%
+Other:                         2%
+
+LOGO CHURN RATE
+----------------
+Jan 2026:  0.8%/month
+Feb 2026:  0.9%/month
+Mar 2026:  1.1%/month
+Apr 2026:  1.3%/month
+May 2026:  1.6%/month  ← doubling since January
+
+
+================================================================
+SECTION 4 — PERFORMANCE BENCHMARKS
+================================================================
+
+PLATFORM PERFORMANCE (Desktop web, May 2026)
+----------------------------------------------
+Metric                    | Current  | Target  | Status
+--------------------------|----------|---------|--------
+Page load time (P50)      |  1.4s    |  <2.0s  | OK
+Page load time (P95)      |  4.8s    |  <3.0s  | FAIL
+API response time (P50)   |  210ms   |  <300ms | OK
+API response time (P95)   |  890ms   |  <500ms | FAIL
+Dashboard load (300+ proj)|  44.2s   |  <5.0s  | CRITICAL
+Report generation (500+)  |  9.8min  |  <60s   | CRITICAL
+Uptime (May 2026)         |  99.61%  |  99.9%  | FAIL
+Error rate (5xx)          |  0.42%   |  <0.1%  | FAIL
+
+MOBILE APP PERFORMANCE (May 2026)
+-----------------------------------
+Metric                    | Current  | Target  | Status
+--------------------------|----------|---------|--------
+Cold start time (iOS)     |  4.1s    |  <2.0s  | FAIL
+Cold start time (Android) |  5.8s    |  <2.0s  | FAIL
+Crash rate (iOS)          |  4.7%    |  <0.5%  | CRITICAL
+Crash rate (Android)      |  6.2%    |  <0.5%  | CRITICAL
+Push notification delay   |  2.8h    |  <60s   | CRITICAL
+Offline sync success rate |  61%     |  >99%   | CRITICAL
+Screen render time (P50)  |  3.2s    |  <1.0s  | FAIL
+Battery usage/2hr session |  38%     |  <8%    |  CRITICAL
+App size (iOS)            |  284MB   |  <150MB | FAIL
+App store rating (iOS)    |  2.7     |  >4.0   | FAIL
+App store rating (Android)|  2.3     |  >4.0   | FAIL
+
+MOBILE PERFORMANCE REGRESSION TIMELINE
+----------------------------------------
+Version  | Date      | Crash Rate | Cold Start | Push Delay
+---------|-----------|------------|------------|------------
+v4.0.0   | Dec 2025  |   0.6%     |   2.1s     |  45s
+v4.0.4   | Jan 2026  |   0.8%     |   2.3s     |  52s
+v4.1.0   | Feb 2026  |   1.2%     |   2.8s     |  8min
+v4.1.4   | Mar 2026  |   2.1%     |   3.4s     |  42min
+v4.1.8   | Apr 2026  |   4.7%     |   4.1s     |  2.8h   ← MAJOR REGRESSION
+v4.1.9   | May 2026  |   4.7%     |   4.1s     |  2.8h   (hotfix login only)
+
+NOTE: v4.1.8 (released April 2026) is the primary driver of
+mobile metric deterioration. Crash rate increased 5.9x from
+v4.0.0 to v4.1.8. Push notification delay increased from
+45 seconds to 2.8 hours. This release correlates directly
+with the 15% decline in mobile DAU and spike in support tickets.
+
+INFRASTRUCTURE METRICS (May 2026)
+-----------------------------------
+Total API calls/day:        8.4M
+Database queries/day:       42.1M
+CDN cache hit rate:         71%   (target >85%)  ← FAIL
+EMEA CDN availability:      97.2% (target 99.9%) ← FAIL
+Storage per customer avg:   2.4GB
+Storage growth rate:        +12%/month
+
+
+================================================================
+SECTION 5 — FEATURE ADOPTION
+================================================================
+
+FEATURE ADOPTION RATES (% of paid customers using monthly)
+-----------------------------------------------------------
+Feature              | Jan 2026 | May 2026 | Change  | Benchmark
+---------------------|----------|----------|---------|----------
+Task management      |   98%    |   97%    |  -1pp   |   95%+
+Project views        |   91%    |   89%    |  -2pp   |   85%+
+Comments/activity    |   78%    |   74%    |  -4pp   |   70%+
+Dashboards           |   64%    |   61%    |  -3pp   |   55%+
+File attachments     |   58%    |   54%    |  -4pp   |   50%+
+Reporting            |   49%    |   51%    |  +2pp   |   40%+
+Automations          |   38%    |   41%    |  +3pp   |   35%+
+Integrations         |   34%    |   37%    |  +3pp   |   30%+
+Gantt chart          |   44%    |   42%    |  -2pp   |   40%+
+Time tracking        |   29%    |   26%    |  -3pp   |   25%+
+Custom fields        |   52%    |   48%    |  -4pp   |   45%+
+Templates            |   61%    |   58%    |  -3pp   |   55%+
+Resource mgmt        |   22%    |   24%    |  +2pp   |   20%+
+AI suggestions       |   11%    |   19%    |  +8pp   |   —
+
+NOTE: Core features declining. Newer features (AI, automations,
+integrations, reporting) showing growth. Product depth is
+improving but breadth of engagement is narrowing.
+
+FEATURE ADOPTION BY PLAN (May 2026)
+-------------------------------------
+Feature          | Starter | Pro   | Business | Enterprise
+-----------------|---------|-------|----------|----------
+Automations      |   8%    |  31%  |   62%    |   89%
+Reporting        |  18%    |  44%  |   72%    |   96%
+Integrations     |   4%    |  22%  |   58%    |   88%
+Custom fields    |  19%    |  47%  |   71%    |   94%
+AI suggestions   |   9%    |  18%  |   28%    |   41%
+Resource mgmt    |   2%    |  11%  |   38%    |   74%
+
+POWER USER DEFINITION & METRICS
+---------------------------------
+Power user = uses 5+ features weekly + DAU last 30 days
+Power users (May 2026):      1,847 accounts (18.9% of paid)
+Power user M12 retention:    91%
+Power user NPS:              62
+Power user ARR contribution: 47% of total ARR
+
+NOTE: Power users are highly retained and high-NPS.
+Converting more accounts to power users is the key growth lever.
+Power user threshold is feature breadth (5+ features) — onboarding
+should be designed to reach this threshold in first 14 days.
+
+
+================================================================
+SECTION 6 — MOBILE VS DESKTOP DEEP DIVE
+================================================================
+
+MOBILE VS DESKTOP USAGE SPLIT TREND
+--------------------------------------
+          | Mobile % | Desktop % | Mobile DAU | Desktop DAU
+----------|----------|-----------|------------|------------
+Jan 2026  |   35.2%  |   64.8%   |   1,481    |   2,729
+Feb 2026  |   34.8%  |   65.2%   |   1,502    |   2,816
+Mar 2026  |   32.9%  |   67.1%   |   1,448    |   2,953
+Apr 2026  |   30.6%  |   69.4%   |   1,341    |   3,048
+May 2026  |   29.5%  |   70.5%   |   1,259    |   2,910  (slight desktop dip)
+
+MOBILE USER SEGMENTS (May 2026)
+---------------------------------
+Mobile-primary users (>70% mobile sessions):   891  (21% of active)
+Mixed users (30-70% mobile):                 2,104  (49% of active)
+Desktop-primary users (<30% mobile):         1,277  (30% of active)
+
+ACTIONS COMPLETED ON MOBILE vs DESKTOP
+----------------------------------------
+Action              | Mobile | Desktop | Mobile preferred?
+--------------------|--------|---------|------------------
+Check task status   |  71%   |  29%    | YES
+Add quick comment   |  58%   |  42%    | YES
+Update task status  |  44%   |  56%    | Marginal
+Create new task     |  31%   |  69%    | NO
+Attach file         |  12%   |  88%    | NO
+Build report        |   3%   |  97%    | NO
+Configure automation|   2%   |  98%    | NO
+View dashboard      |  18%   |  82%    | NO
+
+NOTE: Mobile is used for consumption and quick updates.
+Deep work (reporting, automation, dashboards) stays on desktop.
+The platform is experiencing friction where mobile users
+attempt consumption tasks but hit crashes or missing features.
+
+MOBILE OS BREAKDOWN (May 2026)
+--------------------------------
+iOS 18.1:      34% of iOS sessions  ← compatibility issue
+iOS 18.0:      28% of iOS sessions
+iOS 17.x:      31% of iOS sessions
+iOS 16.x:       7% of iOS sessions
+
+Android 14:    41% of Android sessions
+Android 13:    38% of Android sessions
+Android 12:    16% of Android sessions
+Android 11:     5% of Android sessions
+
+MOBILE DEVICE BREAKDOWN (top 5, May 2026)
+-------------------------------------------
+iPhone 15 Pro:   18% of iOS sessions
+iPhone 14:       22% of iOS sessions
+iPhone 13:       19% of iOS sessions
+Samsung S24:     24% of Android sessions
+Samsung S23:     21% of Android sessions
+
+
+================================================================
+METRICS ANALYST MASTER SUMMARY — QUICK REFERENCE
+================================================================
+
+HEADLINE NUMBERS
+-----------------
+DAU:                  4,272    (-2.7% MoM, -1.5% YTD)
+MAU:                 16,140    (+1.4% MoM)
+DAU/MAU ratio:        26.5%    (benchmark: 30-35%)
+Mobile DAU:           1,259    (-14.9% since Jan = DOWN 15%)
+Free-to-paid conv:     8.4%    (was 11.2% in Jan = DOWN 2.8pp)
+Monthly churn rate:    1.6%    (was 0.8% in Jan = DOUBLED)
+Net Revenue Retention: 98%     (was 108% in Jan, now sub-100%)
+Mobile crash rate:     4.7%    (was 0.8% in Dec = 5.9x increase)
+
+TOP 3 METRICS DRIVING BUSINESS RISK
+-------------------------------------
+1. Free-to-paid conversion: 8.4% vs 11.2% baseline
+   Root cause: Workspace setup drop-off (-17.9pp) and
+   mobile-only onboarding converting at 3.2% vs 22.4% CSM-assisted
+
+2. Mobile DAU down 15%: 1,259 vs 1,481 baseline
+   Root cause: v4.1.8 regression — crash rate 5.9x increase,
+   push delay from 45s to 2.8 hours, offline sync at 61%
+
+3. Monthly churn doubled: 1.6% vs 0.8% baseline
+   Root cause: Mobile quality (34% of exit survey) +
+   onboarding difficulty (22% of exit survey) = 56% combined
+
+BRIGHT SPOTS
+-------------
+- MAU still growing: new signups strong
+- Reporting and automation adoption increasing
+- AI feature adoption at +8pp (fastest growing)
+- Power user NRR at 91% retention
+- Referral conversion at 13.1% (1.56x average)
+- Enterprise retention at 72% M3 (healthy)
+
+KEY CORRELATION
+----------------
+The mobile regression from v4.1.8 (April 2026) is the single
+event most correlated with:
+  - Mobile DAU decline acceleration (-6.1% in May after -7.4% April)
+  - Support ticket surge in mobile category (+41% MoM)
+  - NPS drop from 42 to 38 (April to May)
+  - Conversion decline from 9.9% to 8.4% (March to May)
+A stable mobile platform is the single highest-leverage fix
+available to reverse all four metrics simultaneously.
+================================================================

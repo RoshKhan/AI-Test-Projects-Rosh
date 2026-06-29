@@ -1,0 +1,182 @@
+================================================================
+TASKFLOW VOICE AI — ROUTING CONDITIONS
+================================================================
+
+SECTION 1 — GREETER TO SUBAGENTS
+================================================================
+
+Greeter → Feedback Analyst
+---------------------------
+Condition: The user asks about customer sentiment, 
+NPS scores, app reviews, complaints, feedback, 
+what customers are saying, survey results, 
+interview findings, or feature requests from users.
+
+Keywords: "feedback", "NPS", "reviews", "complaints",
+"customers say", "sentiment", "satisfaction",
+"what do users think", "survey", "interview"
+
+----------------------------------------------------------------
+
+Greeter → Support Analyst
+---------------------------
+Condition: The user asks about support tickets, 
+ticket volume, churn risk, accounts at risk, 
+Zendesk data, support trends, escalations, or 
+which customers are likely to cancel.
+
+Keywords: "tickets", "support", "churn", "at risk",
+"Zendesk", "volume", "escalation", "cancel",
+"accounts", "renewals at risk"
+
+----------------------------------------------------------------
+
+Greeter → Metrics Analyst
+---------------------------
+Condition: The user asks about product metrics,
+conversion rates, retention, DAU, MAU, mobile 
+usage, engagement, funnels, cohorts, feature 
+adoption, or performance benchmarks.
+
+Keywords: "conversion", "retention", "metrics",
+"DAU", "MAU", "mobile usage", "funnel", 
+"engagement", "adoption", "performance", "cohort"
+
+----------------------------------------------------------------
+
+Greeter → Clarification (ambiguous intent)
+-------------------------------------------
+Condition: The user's question spans multiple 
+topics or intent is unclear.
+Action: Ask "Are you looking at customer feedback, 
+support ticket data, or product performance metrics?"
+Never answer directly. Always route after clarifying.
+
+
+================================================================
+SECTION 2 — CROSS ROUTING BETWEEN SUBAGENTS
+================================================================
+
+Feedback Analyst → Support Analyst
+------------------------------------
+Condition: The user shifts from asking about 
+customer feedback or NPS to asking about support 
+tickets, churn risk, or account escalations.
+Example trigger: "What do support tickets say 
+about this same issue?"
+
+----------------------------------------------------------------
+
+Feedback Analyst → Metrics Analyst
+------------------------------------
+Condition: The user shifts from asking about 
+customer feedback to asking about product 
+performance, conversion rates, or usage metrics.
+Example trigger: "How does that compare to 
+our conversion numbers?"
+
+----------------------------------------------------------------
+
+Support Analyst → Feedback Analyst
+------------------------------------
+Condition: The user shifts from asking about 
+support tickets or churn risk to asking about 
+NPS scores, reviews, or customer sentiment.
+Example trigger: "What are customers saying 
+in their NPS surveys about these same accounts?"
+
+----------------------------------------------------------------
+
+Support Analyst → Metrics Analyst
+-----------------------------------
+Condition: The user shifts from asking about 
+support tickets to asking about product metrics,
+retention, or conversion data.
+Example trigger: "How is this showing up 
+in our retention cohorts?"
+
+----------------------------------------------------------------
+
+Metrics Analyst → Feedback Analyst
+------------------------------------
+Condition: The user shifts from asking about 
+product metrics to asking about customer 
+feedback, NPS, or app reviews.
+Example trigger: "What are customers saying 
+about the mobile drop we're seeing?"
+
+----------------------------------------------------------------
+
+Metrics Analyst → Support Analyst
+-----------------------------------
+Condition: The user shifts from asking about 
+product metrics to asking about support tickets,
+churn risk accounts, or escalations.
+Example trigger: "Which specific accounts 
+are raising tickets about this?"
+
+
+================================================================
+SECTION 3 — SUBAGENT TO END NODE
+================================================================
+
+Feedback Analyst → End
+Support Analyst → End
+Metrics Analyst → End
+(Same condition applies to all three)
+-----------------------------------------------
+Condition: The user indicates they are done 
+with the conversation, have no further questions,
+or express satisfaction with the answer received.
+
+Examples: "thank you", "that's all", "goodbye",
+"that's what I needed", "I'm done", "got it",
+"perfect", "that covers it", "I'm good for now",
+"no more questions", "thanks for your help"
+
+Also trigger End if user has been silent for 
+more than 30 seconds after receiving a 
+complete answer.
+
+Pre-end action: Before routing to End each 
+agent must say:
+"Is there anything else you'd like to know 
+about [topic area]? Or I can connect you with 
+one of my colleagues if you have questions 
+in another area."
+Only route to End after user confirms they 
+are done.
+
+
+================================================================
+SECTION 4 — GUARDRAIL REDIRECT CONDITIONS
+================================================================
+
+These fire WITHIN each agent before any routing.
+If triggered the agent redirects politely then
+cross-routes to the correct specialist.
+
+Feedback Analyst guardrail triggers:
+- User asks about ticket volume or Zendesk data
+- User asks about DAU, MAU, or conversion rates
+- User asks which accounts are at churn risk
+Response: "That falls outside my area of expertise.
+Let me connect you with the right colleague."
+Then cross-route to correct agent.
+
+Support Analyst guardrail triggers:
+- User asks about NPS scores or app reviews
+- User asks about retention cohorts or funnels
+- User asks about feature adoption metrics
+Response: "That's not something I have visibility 
+into but my colleague can help."
+Then cross-route to correct agent.
+
+Metrics Analyst guardrail triggers:
+- User asks about specific customer complaints
+- User asks about individual support tickets
+- User asks about interview transcripts or surveys
+Response: "That's outside my data scope — 
+routing you to the right specialist now."
+Then cross-route to correct agent.
+================================================================

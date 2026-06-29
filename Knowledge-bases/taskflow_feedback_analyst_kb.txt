@@ -1,0 +1,720 @@
+================================================================
+TASKFLOW FEEDBACK ANALYST KNOWLEDGE BASE
+================================================================
+Product: TaskFlow — B2B SaaS Project Management
+Customers: 9,764 | ARR: $14.88M
+NPS: 38 (down from 45) | Mobile usage: down 15%
+Free-to-paid conversion: 8.4% (down from 11.2%)
+Support tickets: up 25% MoM
+KB Sections: NPS Survey Results | App Store Reviews |
+             User Interview Transcripts | In-App Feedback
+================================================================
+
+
+================================================================
+SECTION 1 — NPS SURVEY RESULTS (50 responses)
+================================================================
+Period: Last 90 days
+Scale: 0 (not at all likely) to 10 (extremely likely to recommend)
+Segments: SMB | Mid-Market | Enterprise
+Primary themes: Mobile performance, onboarding friction
+================================================================
+
+[NPS-001]
+Date: 2026-03-28 | Segment: SMB | Score: 2
+Comment: "The mobile app is basically unusable. I run my whole business from my phone and TaskFlow keeps crashing when I try to update task statuses. My team has gone back to using WhatsApp to coordinate because at least that works."
+
+[NPS-002]
+Date: 2026-04-03 | Segment: Mid-Market | Score: 6
+Comment: "Onboarding took us almost three weeks. There's no guided setup — you just get dumped into a blank workspace and expected to figure it out. We almost churned in week one."
+
+[NPS-003]
+Date: 2026-04-11 | Segment: Enterprise | Score: 8
+Comment: "Solid product overall. The reporting features are excellent for our program managers. Knocking off two points because mobile notifications are unreliable — my PMs miss updates when they're away from their desks."
+
+[NPS-004]
+Date: 2026-03-15 | Segment: SMB | Score: 1
+Comment: "I cannot believe how bad the mobile experience is. The desktop app is fine but the moment I open TaskFlow on my iPhone it either freezes or logs me out. I've submitted three support tickets and nothing has been fixed."
+
+[NPS-005]
+Date: 2026-04-18 | Segment: Mid-Market | Score: 7
+Comment: "TaskFlow is genuinely good once you get past setup. But the onboarding checklist is confusing and we had to hire a consultant to configure our workspace properly. That should not be necessary for a tool at this price point."
+
+[NPS-006]
+Date: 2026-05-01 | Segment: Enterprise | Score: 9
+Comment: "Our PMO loves the Gantt view and dependency tracking. Support team is responsive. The only reason I'm not giving a 10 is the Android app lags noticeably on large projects."
+
+[NPS-007]
+Date: 2026-03-22 | Segment: SMB | Score: 3
+Comment: "Switched from Asana hoping for something better. The features are there but onboarding was a nightmare. No in-app tutorials, help docs are outdated, and the chat support took 48 hours to respond during our setup week."
+
+[NPS-008]
+Date: 2026-04-29 | Segment: Mid-Market | Score: 5
+Comment: "It's okay. Mobile app needs serious work — you can't even reorder tasks by drag-and-drop on mobile which is a basic feature. Desktop is fine but we're a hybrid team and half our people work from tablets."
+
+[NPS-009]
+Date: 2026-05-07 | Segment: Enterprise | Score: 8
+Comment: "Very powerful platform. Integration with Salesforce works well. Deducting points because our new hires consistently struggle with onboarding — we've had to build our own internal training guide because TaskFlow's materials aren't sufficient."
+
+[NPS-010]
+Date: 2026-03-19 | Segment: SMB | Score: 0
+Comment: "Worst onboarding experience I've ever had with a SaaS tool. No welcome call, no setup wizard, the video tutorials are for an older version of the UI. We wasted two weeks before we got any value from this."
+
+[NPS-011]
+Date: 2026-04-07 | Segment: Mid-Market | Score: 6
+Comment: "The product has improved a lot in the last year but mobile is still lagging. My field team uses it on-site on iPhones and the offline mode is completely broken. Tasks made offline just disappear when you reconnect."
+
+[NPS-012]
+Date: 2026-05-12 | Segment: Enterprise | Score: 9
+Comment: "TaskFlow has transformed how our delivery teams operate. Dashboard views are excellent. Minor gripe: the iOS app UI doesn't match the desktop — features are in different places which causes confusion when switching devices."
+
+[NPS-013]
+Date: 2026-03-31 | Segment: SMB | Score: 4
+Comment: "Feels like the mobile app is an afterthought. Core features like file attachments and time tracking are missing on mobile. My team ends up using the desktop just for TaskFlow which defeats the purpose."
+
+[NPS-014]
+Date: 2026-04-14 | Segment: Mid-Market | Score: 7
+Comment: "We like TaskFlow but the first 30 days were rough. The onboarding emails were generic and didn't address our use case at all. Would have appreciated a template library for our industry upfront."
+
+[NPS-015]
+Date: 2026-05-03 | Segment: Enterprise | Score: 6
+Comment: "Performance at enterprise scale is a concern. When we have more than 200 projects active, the dashboard slows significantly. Mobile becomes almost non-functional at that load. Support acknowledged it but no fix yet."
+
+[NPS-016]
+Date: 2026-03-25 | Segment: SMB | Score: 8
+Comment: "Really good for a small team. We got up and running quickly once we found the right help articles. Mobile could be better but it works for basic task checking. Would recommend to other small agencies."
+
+[NPS-017]
+Date: 2026-04-21 | Segment: Mid-Market | Score: 3
+Comment: "The onboarding experience made us feel like a forgotten customer. No dedicated CSM, no kickoff call, just a generic email with a link to a help center. For what we're paying monthly I expected more."
+
+[NPS-018]
+Date: 2026-05-09 | Segment: Enterprise | Score: 7
+Comment: "Good product with strong customization options. The API is well documented. However mobile notifications have been broken for our Android users for over a month and the fix timeline keeps slipping."
+
+[NPS-019]
+Date: 2026-03-17 | Segment: SMB | Score: 2
+Comment: "Mobile app crashes every time I try to upload a photo attachment. This is a dealbreaker for my construction team who document site work on-site. Looking at alternatives."
+
+[NPS-020]
+Date: 2026-04-08 | Segment: Mid-Market | Score: 6
+Comment: "Functional tool but setup was harder than it needed to be. Spent the first two weeks just configuring workflows. An onboarding specialist or even a setup wizard would have saved us hours."
+
+[NPS-021]
+Date: 2026-05-14 | Segment: Enterprise | Score: 10
+Comment: "TaskFlow is the backbone of our delivery organization. Excellent visibility, great integrations, and the support team genuinely understands enterprise needs. The product keeps getting better every quarter."
+
+[NPS-022]
+Date: 2026-03-29 | Segment: SMB | Score: 5
+Comment: "Middle of the road. Desktop app does what I need. Mobile is frustrating — push notifications are delayed by sometimes 2-3 hours which makes real-time collaboration impossible on the go."
+
+[NPS-023]
+Date: 2026-04-16 | Segment: Mid-Market | Score: 4
+Comment: "We nearly cancelled in the first month. Onboarding was confusing, the help docs contradicted each other, and when we asked support for help they pointed us back to the same docs. Stuck with it and it got better but that experience cost you a higher score."
+
+[NPS-024]
+Date: 2026-05-05 | Segment: Enterprise | Score: 8
+Comment: "Excellent portfolio management capabilities. Our leadership team relies on the executive dashboards weekly. Requesting better mobile access to these dashboards — the mobile version strips out too much detail."
+
+[NPS-025]
+Date: 2026-03-21 | Segment: SMB | Score: 1
+Comment: "The free trial onboarding is misleading. Features that looked available turned out to be paid-tier only but this wasn't clear during signup. When we upgraded expecting those features the workflow was completely different. Very frustrated."
+
+[NPS-026]
+Date: 2026-04-24 | Segment: Mid-Market | Score: 7
+Comment: "TaskFlow is solid. I docked points because our operations team who work primarily on mobile feel like second-class users. The mobile app is several feature generations behind the desktop."
+
+[NPS-027]
+Date: 2026-05-11 | Segment: Enterprise | Score: 9
+Comment: "One of the best project management platforms we've evaluated. Scales well, integrations are robust, and the SSO implementation was smooth. Minor issue with mobile app performance on older Android devices."
+
+[NPS-028]
+Date: 2026-03-26 | Segment: SMB | Score: 3
+Comment: "I run a 12-person team and the mobile experience is making people reluctant to use TaskFlow. Half my team said it feels like a beta product on mobile. If this doesn't improve we'll switch at renewal."
+
+[NPS-029]
+Date: 2026-04-10 | Segment: Mid-Market | Score: 6
+Comment: "The product itself is good but we lost three weeks during onboarding trying to migrate data from our old tool. There was no migration support or tooling provided. We had to do everything manually."
+
+[NPS-030]
+Date: 2026-05-08 | Segment: Enterprise | Score: 7
+Comment: "Strong platform overall. The reason I'm not scoring higher is that every new team we onboard goes through the same painful setup process. There's no enterprise onboarding playbook or white-glove option despite our contract size."
+
+[NPS-031]
+Date: 2026-03-18 | Segment: SMB | Score: 9
+Comment: "Honestly love TaskFlow for our creative agency. Templates are great, client view is clean, and it's made billing conversations easier. The mobile app is a bit clunky but we mostly work from laptops so it's not a dealbreaker."
+
+[NPS-032]
+Date: 2026-04-26 | Segment: Mid-Market | Score: 5
+Comment: "Mixed feelings. The core product is good but mobile performance has declined noticeably over the last two releases. Something changed — it used to be faster. Our field consultants are complaining regularly."
+
+[NPS-033]
+Date: 2026-05-06 | Segment: Enterprise | Score: 8
+Comment: "We use TaskFlow across 14 teams and it scales well. The cross-team dependency mapping is excellent. My one major ask is a more robust mobile experience for team leads who are frequently away from desks."
+
+[NPS-034]
+Date: 2026-03-23 | Segment: SMB | Score: 0
+Comment: "Signed up, spent three days trying to understand how to set up our first project, gave up and asked support. They responded with a link to a YouTube tutorial from 2023 that showed a completely different interface. Cancelled."
+
+[NPS-035]
+Date: 2026-04-13 | Segment: Mid-Market | Score: 6
+Comment: "The product is improving but slowly. Mobile search is completely broken — you can't search for tasks by name on the app which is a basic feature. We use search constantly on desktop and this gap is painful for our remote workers."
+
+[NPS-036]
+Date: 2026-05-02 | Segment: Enterprise | Score: 9
+Comment: "TaskFlow has earned its place in our tech stack. Reliable, powerful, well-supported. The only friction point is onboarding new departments — it takes about 3 weeks to get a new team fully functional and we do this frequently."
+
+[NPS-037]
+Date: 2026-03-27 | Segment: SMB | Score: 4
+Comment: "I wanted to love this tool but the onboarding killed my enthusiasm. Got a generic welcome email and then silence. When I finally found the live chat it was a bot that couldn't answer my questions. Eventually figured it out myself."
+
+[NPS-038]
+Date: 2026-04-19 | Segment: Mid-Market | Score: 7
+Comment: "Good project tracking tool. Reporting is better than most competitors. The mobile app is okay for viewing but terrible for editing — you can't update custom fields on mobile which is something my team needs constantly."
+
+[NPS-039]
+Date: 2026-05-10 | Segment: Enterprise | Score: 6
+Comment: "We've been customers for two years and the product has improved significantly. But we're concerned about mobile — it feels like resources have been pulled from it. Our executive team is asking questions about whether to stay."
+
+[NPS-040]
+Date: 2026-03-20 | Segment: SMB | Score: 8
+Comment: "Great value for a small business. Helped us get organised quickly. The AI task suggestions are surprisingly useful. Only issue is the mobile dark mode has a bug where text disappears on some screens."
+
+[NPS-041]
+Date: 2026-04-22 | Segment: Mid-Market | Score: 3
+Comment: "Onboarding friction cost us real productivity. We have 45 users and getting everyone set up and trained took six weeks. The help documentation is thin and the in-app guidance is non-existent. This needs serious investment."
+
+[NPS-042]
+Date: 2026-05-13 | Segment: Enterprise | Score: 7
+Comment: "Solid platform with good governance features. I'm scoring 7 instead of higher because we've had recurring issues with mobile sync — tasks updated on mobile don't reflect on desktop for up to 10 minutes. This causes duplication."
+
+[NPS-043]
+Date: 2026-03-24 | Segment: SMB | Score: 5
+Comment: "It works but I expected more for the price. Mobile notifications are hit or miss. Sometimes I get them, sometimes I don't. Support said it's a known issue and is on the roadmap. That's not good enough for a tool my team relies on."
+
+[NPS-044]
+Date: 2026-04-17 | Segment: Mid-Market | Score: 8
+Comment: "TaskFlow has made our project delivery more predictable. The risk flagging feature is excellent. Onboarding was bumpy at first but our CSM was helpful once we got connected to them — just wish that happened on day one, not week three."
+
+[NPS-045]
+Date: 2026-05-04 | Segment: Enterprise | Score: 10
+Comment: "We evaluated six platforms and TaskFlow was the clear winner for our PMO needs. Two years in and we're very satisfied. The roadmap alignment sessions are valuable and the product team listens to enterprise feedback."
+
+[NPS-046]
+Date: 2026-03-30 | Segment: SMB | Score: 2
+Comment: "I manage a team of 8 and we're a mobile-first team. TaskFlow's mobile app has regressed over the last few months. Things that worked before don't anymore. The task list view used to load instantly and now it spins for 10 seconds."
+
+[NPS-047]
+Date: 2026-04-25 | Segment: Mid-Market | Score: 6
+Comment: "Decent product but the onboarding flow for new team members is painful. Every time we hire someone new we have to manually walk them through setup because the in-product onboarding doesn't actually teach you how to use the tool effectively."
+
+[NPS-048]
+Date: 2026-05-15 | Segment: Enterprise | Score: 8
+Comment: "Strong product with enterprise-grade features. The audit logs and permission system are exactly what our compliance team needs. Holding back from 10 because the mobile app doesn't support our SSO provider correctly — users have to log in twice."
+
+[NPS-049]
+Date: 2026-03-16 | Segment: SMB | Score: 7
+Comment: "Generally positive experience. Setup was straightforward for me as a tech-savvy user but I can see how others might struggle. The template library helped a lot. Mobile is functional but not polished — feels like version 1 of the app."
+
+[NPS-050]
+Date: 2026-04-30 | Segment: Mid-Market | Score: 4
+Comment: "We're actively evaluating alternatives. The product has potential but mobile has been getting worse not better over the last two quarters, and onboarding new clients through our workspace is still a manual painful process. Competitors are catching up."
+
+NPS SECTION SUMMARY
+-------------------
+Detractors (0-6):  26 | 52%
+Passives   (7-8):  14 | 28%
+Promoters  (9-10): 10 | 20%
+Top themes: Mobile performance (28), Onboarding friction (22),
+            Feature parity gaps (18), Notification issues (9)
+
+
+================================================================
+SECTION 2 — APP STORE REVIEWS (20 reviews)
+================================================================
+Platform: iOS App Store and Google Play Store
+Period: Last 90 days
+App: TaskFlow Mobile (iOS v4.2.1 | Android v4.1.8)
+================================================================
+
+[APP-001]
+Date: 2026-03-16 | Platform: iOS App Store | Stars: 1
+Title: "Crashes constantly — unusable"
+Review: "I've tried everything. Deleted and reinstalled three times. The app crashes every single time I try to open a project with more than 20 tasks. My whole team is using TaskFlow on desktop and I'm stuck sending screenshots of my laptop. Please fix this."
+Helpful votes: 47
+
+[APP-002]
+Date: 2026-03-19 | Platform: Google Play | Stars: 2
+Title: "Desktop is great, mobile is an embarrassment"
+Review: "I genuinely enjoy TaskFlow on my MacBook. The mobile app feels like it was built by a completely different team. No drag and drop, can't edit subtasks, notifications come an hour late. Give the mobile team some resources please."
+Helpful votes: 31
+
+[APP-003]
+Date: 2026-03-25 | Platform: iOS App Store | Stars: 5
+Title: "Best project management app for agencies"
+Review: "We've tried Asana, Monday, ClickUp and TaskFlow is the winner for our 20-person agency. The client portal feature alone is worth the subscription. Mobile could use some polish but the core experience is excellent."
+Helpful votes: 12
+
+[APP-004]
+Date: 2026-03-29 | Platform: Google Play | Stars: 1
+Title: "Offline mode is broken — lost hours of work"
+Review: "I was on a flight, made updates to 15 tasks in offline mode. When I landed and reconnected, everything disappeared. Gone. No recovery option. I escalated to support and they said it's a known bug. Unacceptable for a paid tool."
+Helpful votes: 89
+
+[APP-005]
+Date: 2026-04-02 | Platform: iOS App Store | Stars: 3
+Title: "Decent but needs mobile feature parity"
+Review: "The app works for basic task checking but I can't do half of what I do on desktop. Custom fields aren't editable, you can't attach files from iCloud, and the time tracking widget is missing entirely. It feels like a read-only version."
+Helpful votes: 24
+
+[APP-006]
+Date: 2026-04-07 | Platform: Google Play | Stars: 2
+Title: "Notifications are completely unreliable"
+Review: "My manager assigns me tasks and I find out hours later when I happen to open the app. Push notifications simply do not work consistently on Android. I've checked every setting, granted all permissions, still broken. Team is losing trust in the tool."
+Helpful votes: 56
+
+[APP-007]
+Date: 2026-04-11 | Platform: iOS App Store | Stars: 4
+Title: "Good app with room to grow"
+Review: "TaskFlow mobile is functional and I use it daily to check project status on the go. The UI is clean and the search actually works. Would give 5 stars if they added custom field editing and fixed the occasional crash on the Gantt view."
+Helpful votes: 8
+
+[APP-008]
+Date: 2026-04-14 | Platform: Google Play | Stars: 1
+Title: "Cannot log in since last update"
+Review: "Since version 4.1.8 dropped I cannot get past the login screen. It loads, I enter my credentials, it spins for 30 seconds and then shows a blank white screen. My whole team has this issue. We are completely locked out."
+Helpful votes: 103
+
+[APP-009]
+Date: 2026-04-18 | Platform: iOS App Store | Stars: 2
+Title: "Dark mode text is invisible"
+Review: "Whoever tested dark mode on iPhone never actually used it. Text in task descriptions disappears against the dark background. It's been like this for three updates. I've reported it twice and nothing has changed."
+Helpful votes: 19
+
+[APP-010]
+Date: 2026-04-22 | Platform: Google Play | Stars: 5
+Title: "Transformed our construction site coordination"
+Review: "We use TaskFlow on Samsung tablets on-site and it has completely replaced our paper-based system. Photo uploads work well, the checklist feature is exactly what we needed, and the team adoption was faster than expected. Highly recommend."
+Helpful votes: 14
+
+[APP-011]
+Date: 2026-04-25 | Platform: iOS App Store | Stars: 1
+Title: "The app gets worse with every update"
+Review: "I have been a TaskFlow customer for 18 months. The mobile app used to be good. Since the last two updates it is slower, buggier, and missing features that were there before. It feels like they broke something fundamental. Considering cancelling."
+Helpful votes: 67
+
+[APP-012]
+Date: 2026-04-28 | Platform: Google Play | Stars: 3
+Title: "Solid product, frustrating app"
+Review: "TaskFlow as a platform is genuinely good. The Android app though is a constant source of frustration for my team. Sync is slow, the layout on tablets is poorly optimised, and you can't view Gantt charts at all on mobile. Basic requirement."
+Helpful votes: 22
+
+[APP-013]
+Date: 2026-05-01 | Platform: iOS App Store | Stars: 2
+Title: "Search doesn't work on mobile"
+Review: "Try searching for a task by name on the mobile app. It returns random results or nothing at all. On desktop the same search works instantly. This has been broken for at least two months and it makes the app nearly useless for finding anything."
+Helpful votes: 41
+
+[APP-014]
+Date: 2026-05-04 | Platform: Google Play | Stars: 4
+Title: "Great for remote team management"
+Review: "Running a distributed team across three time zones and TaskFlow keeps us aligned. The mobile app is reliable enough for daily standups and task updates. Notifications could be faster but it works. Customer support has always been helpful."
+Helpful votes: 7
+
+[APP-015]
+Date: 2026-05-07 | Platform: iOS App Store | Stars: 1
+Title: "Signed up and immediately regretted it"
+Review: "Downloaded the app as part of a free trial. Zero onboarding. No walkthrough. Opened the app and had absolutely no idea where to start. There is no tutorial, no sample project, nothing. Just a blank screen with confusing icons. Deleted after 20 minutes."
+Helpful votes: 33
+
+[APP-016]
+Date: 2026-05-09 | Platform: Google Play | Stars: 2
+Title: "Battery drain is severe"
+Review: "TaskFlow kills my phone battery. After 2 hours of normal use the battery is down 40%. I've confirmed it in battery settings — TaskFlow is the top consumer by far. Something is running in the background constantly. Not sustainable."
+Helpful votes: 28
+
+[APP-017]
+Date: 2026-05-11 | Platform: iOS App Store | Stars: 5
+Title: "Perfect for our marketing agency workflows"
+Review: "We switched from Monday.com six months ago and have not looked back. The automation features have saved us hours every week. The iOS app is smooth, Face ID login works perfectly, and the widget on the home screen is genuinely useful."
+Helpful votes: 6
+
+[APP-018]
+Date: 2026-05-13 | Platform: Google Play | Stars: 1
+Title: "Data sync issue caused a client incident"
+Review: "Task I marked complete on mobile showed as incomplete on desktop. Our client saw it as overdue on the shared view and escalated. This is not a minor bug — it caused a real business problem. TaskFlow needs to take mobile sync seriously."
+Helpful votes: 74
+
+[APP-019]
+Date: 2026-05-15 | Platform: iOS App Store | Stars: 3
+Title: "Good concept, inconsistent execution on mobile"
+Review: "The idea of having full project management on my phone is appealing and TaskFlow almost gets there. But it crashes maybe once a day, notifications are unreliable, and the iPad layout is clearly an iPhone layout stretched. Needs dedicated tablet UI."
+Helpful votes: 17
+
+[APP-020]
+Date: 2026-05-17 | Platform: Google Play | Stars: 2
+Title: "Onboarding via mobile is impossible"
+Review: "Tried to set up my workspace entirely on my Android phone. Gave up after an hour. The setup flow is clearly designed for desktop only. Several onboarding steps don't render correctly on mobile and one screen was completely blank. Had to switch to my laptop."
+Helpful votes: 29
+
+APP STORE SUMMARY
+-----------------
+iOS Reviews:     10 | Avg rating: 2.7
+Android Reviews: 10 | Avg rating: 2.3
+Combined avg:    2.5 stars
+Top issues: Crashes (6), Notifications (4), Sync (3),
+            Offline mode (2), Onboarding (3), Feature gaps (4)
+
+
+================================================================
+SECTION 3 — USER INTERVIEW TRANSCRIPTS (5 interviews)
+================================================================
+Format: Moderated user research interviews
+Duration: 30 minutes each | Method: Video call
+Conducted by: TaskFlow UX Research Team
+Period: April - May 2026
+================================================================
+
+[INT-001]
+Date: 2026-04-05
+Participant: Sarah K. | Role: Operations Manager | Segment: SMB
+Company size: 18 employees | Plan: Pro | Tenure: 8 months
+Interviewer: UX Researcher
+
+Interviewer: "Thanks for joining us Sarah. Can you start by describing how your team uses TaskFlow day to day?"
+
+Sarah: "Sure. We're a logistics coordination company, so we're managing anywhere from 30 to 50 active jobs at any time. My team is split — some people are office-based and use desktop, but my field coordinators are almost entirely on their phones. That's where we've had the most friction."
+
+Interviewer: "Tell me more about that friction."
+
+Sarah: "The mobile app just doesn't keep up. My field team needs to update task statuses, attach photos as proof of delivery, and check dependencies on the fly. The photo attachment feature crashes at least once a day. The dependency view isn't even available on mobile. And if they're in an area with poor signal, anything they do offline just disappears. It's caused real problems with our clients."
+
+Interviewer: "How has that affected your team's adoption of TaskFlow?"
+
+Sarah: "Three of my field coordinators have basically stopped using it. They WhatsApp me updates and I enter them on desktop. That defeats the purpose entirely. I've been a TaskFlow advocate internally but I'm running out of arguments to make."
+
+Interviewer: "What would make the biggest difference for you?"
+
+Sarah: "Honestly? Reliable offline mode and photo uploads that don't crash. Those two things would change everything. The desktop product is great. The mobile product feels abandoned."
+
+Interviewer: "How was your initial onboarding experience?"
+
+Sarah: "That was also rough. We signed up on a Friday afternoon and got an automated welcome email. No one reached out until I submitted a support ticket two weeks in. By that point we'd already configured things incorrectly and had to redo a lot of setup. A 30-minute kickoff call on day one would have saved us weeks."
+
+---
+
+[INT-002]
+Date: 2026-04-12
+Participant: Marcus T. | Role: Director of PMO | Segment: Enterprise
+Company size: 1,200 employees | Plan: Enterprise | Tenure: 2.5 years
+Interviewer: UX Researcher
+
+Interviewer: "Marcus, you've been with TaskFlow for over two years. What's your overall view of the product today?"
+
+Marcus: "Overall still positive but I have concerns. The core platform is excellent — portfolio views, resource allocation, reporting. Our PMO relies on it deeply. But we're seeing a growing disconnect between the desktop experience and what our mobile users get."
+
+Interviewer: "Can you be specific about that disconnect?"
+
+Marcus: "My project managers who are desk-based love it. But our team leads who are on-site — manufacturing floor, client sites — they're getting a significantly worse experience on mobile. The executive dashboard doesn't render on mobile, Gantt charts are read-only on the app, and we had a sync issue last month where mobile edits weren't reflecting on desktop for up to 15 minutes. In a fast-moving environment that's a real problem."
+
+Interviewer: "Has this affected your renewal consideration?"
+
+Marcus: "We're early in our renewal cycle but yes, it's a topic. My CTO has asked me to do a formal platform review and mobile capability is on the evaluation criteria. TaskFlow needs to show us a credible mobile roadmap or we'll have to consider alternatives. We've been a loyal customer and I don't want to switch, but the gap is widening."
+
+Interviewer: "What about onboarding? You onboard new teams regularly."
+
+Marcus: "That's my other major pain point. We add new departments to TaskFlow every quarter. Every single time it's the same story — three weeks of setup, confusion about permissions, people not knowing how to use templates. There's no enterprise onboarding playbook. No white-glove service despite our contract size. We've had to build our own internal training materials. TaskFlow should own that."
+
+Interviewer: "If you could send one message to the TaskFlow product team what would it be?"
+
+Marcus: "Invest in mobile as if it were a first-class product, not a companion app. And create a proper enterprise onboarding programme. Those two things would secure our renewal."
+
+---
+
+[INT-003]
+Date: 2026-04-19
+Participant: Jennifer L. | Role: Founder & CEO | Segment: SMB
+Company size: 6 employees | Plan: Starter | Tenure: 3 months
+Interviewer: UX Researcher
+
+Interviewer: "Jennifer, you're relatively new to TaskFlow. What brought you to the product?"
+
+Jennifer: "I saw it recommended in a startup community. We were using spreadsheets and Slack to manage projects and it was chaos. TaskFlow looked like exactly what we needed."
+
+Interviewer: "How has the experience been so far?"
+
+Jennifer: "Honestly, harder than I expected. The onboarding was really confusing. I signed up expecting some kind of guided setup — like a wizard that walks you through creating your first project. Instead I got a blank workspace and a help article. I'm reasonably technical and even I spent two days just trying to figure out how to structure our workspace correctly."
+
+Interviewer: "What specifically was confusing?"
+
+Jennifer: "The difference between workspaces, projects, and task groups wasn't explained anywhere obvious. I set everything up wrong the first time and had to start over. The onboarding email sequence didn't help — it was very generic, talking about features I hadn't even discovered yet rather than helping me get my first project running."
+
+Interviewer: "How do you use TaskFlow now, three months in?"
+
+Jennifer: "I use it on desktop mostly. The mobile app I've basically given up on. I'm an iPhone user and the app crashes about once a day. It's fine for checking things but I can't actually get work done on it. For a team our size where everyone wears multiple hats, mobile is important."
+
+Interviewer: "Would you recommend TaskFlow to other founders?"
+
+Jennifer: "With caveats. I'd say the product is powerful once you figure it out, but budget a week of frustration upfront. And don't expect the mobile app to replace desktop. If those two things were fixed I'd be a much stronger advocate."
+
+---
+
+[INT-004]
+Date: 2026-05-03
+Participant: David R. | Role: VP Engineering | Segment: Mid-Market
+Company size: 180 employees | Plan: Business | Tenure: 14 months
+Interviewer: UX Researcher
+
+Interviewer: "David, your team uses TaskFlow for engineering project management. How's that going?"
+
+David: "Pretty well overall. We integrated TaskFlow with our GitHub and Jira setup and the workflow is solid. The API documentation is good and our DevOps team had no trouble with the integration. Where we struggle is with the non-engineering teams we work with — marketing, design, operations — who are more mobile-centric."
+
+Interviewer: "What does that struggle look like?"
+
+David: "Our design team works a lot from iPads. The TaskFlow iPad app is essentially the iPhone app stretched to fill a larger screen. It looks terrible and some touch targets are tiny. They've complained consistently and I've had to escalate to support twice. The response was that tablet optimisation is planned but no timeline was given."
+
+Interviewer: "How did your onboarding go?"
+
+David: "We had a decent onboarding experience to be honest. We got a CSM assigned within the first week and they ran three setup sessions with our team leads. But I've spoken to other customers and that seems to be the exception not the rule. I think we may have gotten lucky or our contract size helped."
+
+Interviewer: "What's your biggest concern looking forward?"
+
+David: "The mobile gap widening. Every quarter we do a tool review and every quarter mobile comes up as a complaint. The desktop product gets better releases regularly. Mobile feels stagnant. At some point my cross-functional teams will push hard enough that I'll have to consider a switch."
+
+---
+
+[INT-005]
+Date: 2026-05-10
+Participant: Angela M. | Role: Head of Customer Success | Segment: Mid-Market
+Company size: 95 employees | Plan: Business | Tenure: 19 months
+Interviewer: UX Researcher
+
+Interviewer: "Angela, you manage a customer-facing team using TaskFlow. Tell us about your use case."
+
+Angela: "We use TaskFlow to manage our customer onboarding projects. Each new customer we bring on gets a TaskFlow project with a standardised template. My team manages maybe 40 active onboarding projects at any one time. It works well for the structure and visibility."
+
+Interviewer: "Where does it break down?"
+
+Angela: "Two places. First, my team is frequently on calls with customers and needs to update tasks in real time on their phones. The mobile app is not reliable enough for that. Updates don't always save, notifications about customer responses come through hours late, and the app has crashed during active customer calls which is embarrassing."
+
+Interviewer: "And the second place?"
+
+Angela: "Ironically, our own onboarding into TaskFlow was painful. We're a customer success team — we think about onboarding constantly — and ours was bad. We didn't get any structured guidance. We figured out the template system ourselves through trial and error. It took us six weeks to build the workflow we should have had from day one. Someone from TaskFlow's CS team should have been guiding us through that."
+
+Interviewer: "Has TaskFlow's NPS issue resonated with your experience?"
+
+Angela: "Completely. I'm not surprised NPS has dropped. The mobile issues and onboarding friction are exactly the things that would move scores from the 9-10 range down to the 6-7 range. You can have a great product and still lose promoters over experience gaps. That's what's happening here."
+
+Interviewer: "What would turn you into a vocal advocate?"
+
+Angela: "A mobile app that my team can genuinely rely on during customer calls and an onboarding experience that sets new customers up for success in week one rather than week six. Those two things would have me recommending TaskFlow to every CS leader I know."
+
+INTERVIEW SUMMARY
+-----------------
+Participants: 5 | Segments: 2 SMB, 2 Mid-Market, 1 Enterprise
+Universal themes across all 5 interviews:
+1. Mobile reliability as a trust and adoption blocker
+2. Onboarding friction costing time and internal advocacy
+3. Feature parity gap between desktop and mobile
+4. Risk to renewal when mobile issues persist
+
+
+================================================================
+SECTION 4 — IN-APP FEEDBACK SUBMISSIONS (30 submissions)
+================================================================
+Trigger points: Post-onboarding | Post-mobile session |
+                Post-support interaction | Feature prompt
+Format: Rating (thumbs up / thumbs down) + free text + tag
+Plan tiers: Starter | Pro | Business | Enterprise
+================================================================
+
+[IAF-001]
+Date: 2026-03-15 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "The setup wizard skipped half the steps on my phone. Had to start over on laptop. Why doesn't onboarding work on mobile?"
+
+[IAF-002]
+Date: 2026-03-16 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Task management
+Feedback: "Tried to reorder my task list by dragging. Doesn't work on iPhone. This is a basic feature please add it."
+
+[IAF-003]
+Date: 2026-03-18 | Rating: Thumbs Up | Plan: Business
+Feature area: Reporting
+Feedback: "The new portfolio summary report is exactly what I needed for my weekly leadership update. Saved me an hour this week."
+
+[IAF-004]
+Date: 2026-03-20 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "I'm on day 3 and still don't understand the difference between a project and a workspace. The onboarding emails haven't explained this. Can you add a quick explainer?"
+
+[IAF-005]
+Date: 2026-03-22 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Notifications
+Feedback: "Got a notification 3 hours after my teammate assigned a task to me. By then the deadline had already passed. This is not acceptable."
+
+[IAF-006]
+Date: 2026-03-25 | Rating: Thumbs Up | Plan: Enterprise
+Feature area: Integrations
+Feedback: "The Salesforce integration is working perfectly after the last update. Our sales and delivery teams are now fully aligned in one view."
+
+[IAF-007]
+Date: 2026-03-27 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Offline
+Feedback: "Made edits offline on the train. Reconnected at the office and all changes were gone. I've lost work twice now. Offline mode is unreliable."
+
+[IAF-008]
+Date: 2026-03-29 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "The welcome video link in the onboarding email is broken. It goes to a 404 page. Not a great first impression."
+
+[IAF-009]
+Date: 2026-04-01 | Rating: Thumbs Up | Plan: Business
+Feature area: Templates
+Feedback: "The new agile sprint template saved our team hours of setup time. More industry-specific templates please."
+
+[IAF-010]
+Date: 2026-04-03 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Performance
+Feedback: "The app freezes every time I load a project with more than 50 tasks. My main project has 200 tasks and it is completely unusable on my phone."
+
+[IAF-011]
+Date: 2026-04-05 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "Invited my team members during setup and 3 of them never received the invite emails. Had to manually resend from settings. Took 2 days to get everyone in."
+
+[IAF-012]
+Date: 2026-04-07 | Rating: Thumbs Up | Plan: Enterprise
+Feature area: Permissions
+Feedback: "The granular permission controls are exactly what our compliance team needed. Finally a tool that gives us proper audit controls."
+
+[IAF-013]
+Date: 2026-04-09 | Rating: Thumbs Down | Plan: Business
+Feature area: Mobile - Sync
+Feedback: "Task I completed on mobile still shows as incomplete on my colleague's desktop view 20 minutes later. This has caused duplicate work twice this week."
+
+[IAF-014]
+Date: 2026-04-11 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Features
+Feedback: "I can not edit custom fields on the mobile app. I use custom fields constantly. Having to open my laptop just to update a dropdown field is ridiculous."
+
+[IAF-015]
+Date: 2026-04-13 | Rating: Thumbs Up | Plan: Business
+Feature area: Dashboards
+Feedback: "The new dashboard widgets are a big improvement. Being able to see project health at a glance has reduced our weekly status meeting from 45 minutes to 20."
+
+[IAF-016]
+Date: 2026-04-15 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "I'm a week in and still haven't had anyone from TaskFlow reach out to check how setup is going. Feels like I'm on my own. A check-in call would go a long way."
+
+[IAF-017]
+Date: 2026-04-17 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Attachments
+Feedback: "Cannot attach files from Google Drive on the mobile app. Desktop works fine. This is a critical feature for my team and it's broken on mobile."
+
+[IAF-018]
+Date: 2026-04-19 | Rating: Thumbs Up | Plan: Enterprise
+Feature area: API
+Feedback: "API documentation is thorough and well-structured. Our developers got the custom integration running in two days. Great work on the developer experience."
+
+[IAF-019]
+Date: 2026-04-21 | Rating: Thumbs Down | Plan: Business
+Feature area: Mobile - UI
+Feedback: "The navigation on mobile is confusing. I can never find the project archive. Things are in different places than on desktop and there's no consistency."
+
+[IAF-020]
+Date: 2026-04-23 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "The onboarding checklist says I've completed setup but I haven't connected any integrations or set up my first real project. The checklist is checking the wrong things."
+
+[IAF-021]
+Date: 2026-04-25 | Rating: Thumbs Up | Plan: Pro
+Feature area: Task management
+Feedback: "The new bulk task editing feature is a game changer. What used to take 20 minutes now takes 2. This is exactly the kind of improvement that keeps me recommending TaskFlow."
+
+[IAF-022]
+Date: 2026-04-27 | Rating: Thumbs Down | Plan: Business
+Feature area: Mobile - Crash
+Feedback: "App crashed mid-presentation to a client. I was demonstrating our project status on my iPad and it froze and crashed. Extremely embarrassing. Please prioritise stability."
+
+[IAF-023]
+Date: 2026-04-29 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Search
+Feedback: "Search on the mobile app is broken. Searching for a task by exact name returns nothing. Desktop search works instantly. Please fix mobile search urgently."
+
+[IAF-024]
+Date: 2026-05-01 | Rating: Thumbs Up | Plan: Enterprise
+Feature area: Reporting
+Feedback: "The executive summary PDF export is exactly what our steering committee needed. Clean, professional, customisable. This feature alone justifies our enterprise subscription."
+
+[IAF-025]
+Date: 2026-05-03 | Rating: Thumbs Down | Plan: Starter
+Feature area: Onboarding
+Feedback: "Tried to import tasks from a CSV during setup. The import failed three times with no error message explaining why. Ended up entering 40 tasks manually. Very frustrating start."
+
+[IAF-026]
+Date: 2026-05-05 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Battery
+Feedback: "TaskFlow drains my iPhone battery faster than any other app. After using it for 2 hours my battery is at 30%. Something is wrong in the background processes."
+
+[IAF-027]
+Date: 2026-05-07 | Rating: Thumbs Up | Plan: Business
+Feature area: Automations
+Feedback: "The new automation builder is intuitive and powerful. We've automated our entire weekly status update workflow. This is the kind of feature that justifies the Business plan."
+
+[IAF-028]
+Date: 2026-05-09 | Rating: Thumbs Down | Plan: Pro
+Feature area: Mobile - Login
+Feedback: "Face ID stopped working after the last update. Now I have to enter my password every time I open the app. Small thing but when I open the app 20 times a day it adds up."
+
+[IAF-029]
+Date: 2026-05-11 | Rating: Thumbs Down | Plan: Business
+Feature area: Onboarding
+Feedback: "We're onboarding our fifth new team member this month and the process is still manual and painful. There's no self-serve onboarding path for new users joining an existing workspace. We need this."
+
+[IAF-030]
+Date: 2026-05-13 | Rating: Thumbs Up | Plan: Enterprise
+Feature area: Support
+Feedback: "Our dedicated CSM Sarah has been outstanding. Proactive, knowledgeable, and genuinely invested in our success. This level of support is what enterprise customers need and she delivers it consistently."
+
+IN-APP FEEDBACK SUMMARY
+------------------------
+Total submissions: 30
+Thumbs Up: 10 (33%) | Thumbs Down: 20 (67%)
+Top negative tags: Mobile performance (12), Onboarding (8),
+                   Mobile features (5), Mobile sync (3)
+Top positive tags: Reporting (3), Integrations (2),
+                   Templates (2), Support (1)
+
+
+================================================================
+MASTER FEEDBACK SUMMARY — FEEDBACK ANALYST REFERENCE
+================================================================
+Total feedback items: 105
+(50 NPS + 20 App Reviews + 5 Interviews + 30 In-App)
+
+TOP 5 THEMES BY FREQUENCY
+1. Mobile app performance / crashes        — 41 mentions
+2. Onboarding friction / poor guidance     — 35 mentions
+3. Mobile feature parity gaps              — 28 mentions
+4. Notification unreliability              — 14 mentions
+5. Mobile sync / offline issues            — 11 mentions
+
+SENTIMENT BY SEGMENT
+SMB:         Predominantly negative — mobile and onboarding
+Mid-Market:  Mixed — mobile for field teams, onboarding cost
+Enterprise:  Generally positive — concerns about mobile roadmap
+
+RISK SIGNALS
+- 6 customers explicitly mentioned evaluating alternatives
+- 3 customers mentioned renewal risk
+- 2 customers mentioned cancellation
+- Multiple references to team members reverting to older tools
+
+BRIGHT SPOTS
+- Reporting and dashboards consistently praised
+- API and integrations rated highly by technical users
+- Enterprise support (CSM model) praised where available
+- Automation features positively received
+================================================================

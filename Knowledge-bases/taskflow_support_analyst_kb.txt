@@ -1,0 +1,717 @@
+================================================================
+TASKFLOW SUPPORT ANALYST KNOWLEDGE BASE
+================================================================
+Product: TaskFlow — B2B SaaS Project Management
+Customers: 9,764 | ARR: $14.88M
+Support ticket volume: UP 25% month-over-month
+Data source: Zendesk
+KB Sections: Volume Trends | Ticket Categories |
+             Individual Tickets | Churn Risk Accounts |
+             Agent Performance | Escalation Log
+================================================================
+
+
+================================================================
+SECTION 1 — TICKET VOLUME TRENDS
+================================================================
+Reporting period: January 2026 — May 2026
+Baseline month: January 2026
+================================================================
+
+MONTHLY VOLUME SUMMARY
+----------------------
+January  2026:  612 tickets  | Baseline
+February 2026:  644 tickets  | +5.2% MoM
+March    2026:  748 tickets  | +16.1% MoM
+April    2026:  891 tickets  | +19.1% MoM
+May      2026:  1,114 tickets| +25.0% MoM  ← ALERT
+
+WEEK-OVER-WEEK (May 2026)
+-------------------------
+Week 1 (May 1-7):    241 tickets
+Week 2 (May 8-14):   268 tickets  | +11.2% WoW
+Week 3 (May 15-21):  294 tickets  | +9.7%  WoW
+Week 4 (May 22-28):  311 tickets  | +5.8%  WoW
+
+TICKETS PER CUSTOMER (normalised)
+----------------------------------
+January  2026:  0.063 tickets/customer
+February 2026:  0.066 tickets/customer
+March    2026:  0.077 tickets/customer
+April    2026:  0.091 tickets/customer
+May      2026:  0.114 tickets/customer  ← highest on record
+
+VOLUME BY DAY OF WEEK (May 2026 average)
+-----------------------------------------
+Monday:     52 tickets/day  (peak)
+Tuesday:    48 tickets/day
+Wednesday:  44 tickets/day
+Thursday:   41 tickets/day
+Friday:     38 tickets/day
+Saturday:   12 tickets/day
+Sunday:      9 tickets/day
+
+VOLUME BY TIME OF DAY (EST, May 2026)
+--------------------------------------
+08:00-10:00:  18% of daily volume
+10:00-12:00:  24% of daily volume  (peak)
+12:00-14:00:  19% of daily volume
+14:00-16:00:  22% of daily volume
+16:00-18:00:  14% of daily volume
+18:00+:        3% of daily volume
+
+NEW VS RETURNING SUBMITTERS (May 2026)
+---------------------------------------
+First-time ticket submitters:   38% (423 tickets)
+Returning submitters:           62% (691 tickets)
+Customers with 3+ tickets:      18% of active submitters
+Customers with 5+ tickets:       7% of active submitters  ← churn risk flag
+
+
+================================================================
+SECTION 2 — TICKET CATEGORIES & TRENDS
+================================================================
+
+CATEGORY BREAKDOWN — MAY 2026 (1,114 tickets)
+-----------------------------------------------
+Category                  | Count | % Share | MoM Change
+--------------------------|-------|---------|------------
+Mobile app bugs           |   334 |  30.0%  | +41.2%  ← fastest growing
+Onboarding & setup        |   212 |  19.0%  | +33.8%
+Billing & account         |   134 |  12.0%  | +8.2%
+Feature requests          |   123 |  11.0%  | +5.1%
+Integrations              |    89 |   8.0%  | +12.7%
+Performance & speed       |    78 |   7.0%  | +28.3%
+Data sync issues          |    67 |   6.0%  | +34.0%
+Permissions & access      |    45 |   4.0%  | +3.2%
+Other                     |    32 |   3.0%  | +1.1%
+
+MOBILE APP BUG SUBCATEGORIES (334 tickets in May)
+--------------------------------------------------
+App crashes / freezes:        112 tickets  (33.5%)
+Push notification failure:     78 tickets  (23.4%)
+Offline mode data loss:        54 tickets  (16.2%)
+Login / authentication:        41 tickets  (12.3%)
+Feature missing on mobile:     28 tickets   (8.4%)
+Battery / performance drain:   21 tickets   (6.3%)
+
+ONBOARDING SUBCATEGORIES (212 tickets in May)
+----------------------------------------------
+Workspace configuration:       67 tickets  (31.6%)
+Team invitation failures:      44 tickets  (20.8%)
+CSV import errors:             38 tickets  (17.9%)
+Template setup confusion:      31 tickets  (14.6%)
+Integration setup during trial:22 tickets  (10.4%)
+Other onboarding:              10 tickets   (4.7%)
+
+CATEGORY TRENDS — 3-MONTH COMPARISON
+--------------------------------------
+Category             | March | April |  May  | Trend
+---------------------|-------|-------|-------|-------
+Mobile app bugs      |   187 |   236 |   334 | ↑↑↑
+Onboarding & setup   |   142 |   158 |   212 | ↑↑
+Data sync issues     |    38 |    50 |    67 | ↑↑
+Performance & speed  |    47 |    61 |    78 | ↑↑
+Billing & account    |   120 |   124 |   134 | ↑
+Integrations         |    74 |    79 |    89 | ↑
+Feature requests     |   108 |   117 |   123 | →
+Permissions & access |    44 |    44 |    45 | →
+Other                |    27 |    22 |    32 | →
+
+TICKET PRIORITY DISTRIBUTION (May 2026)
+-----------------------------------------
+Urgent:   89 tickets   (8.0%)
+High:    245 tickets  (22.0%)
+Normal:  602 tickets  (54.0%)
+Low:     178 tickets  (16.0%)
+
+RESOLUTION METRICS (May 2026)
+-------------------------------
+First response time avg:    4.2 hours  (SLA target: 4h) ← breaching
+First contact resolution:   34%        (target: 45%)    ← below target
+Average resolution time:    28.4 hours (target: 24h)    ← breaching
+CSAT score (post-ticket):   3.6/5.0    (target: 4.2)   ← below target
+Tickets reopened:           12%        (target: <8%)    ← above threshold
+Escalations to Tier 2:      18%        (target: <12%)   ← above threshold
+
+
+================================================================
+SECTION 3 — INDIVIDUAL TICKET LOG (40 tickets)
+================================================================
+Format: ID | Date | Category | Priority | Status |
+        Segment | ARR | Churn Risk | Summary
+================================================================
+
+[TKT-4421]
+Date: 2026-05-01 | Category: Mobile - Crash | Priority: Urgent
+Status: Open | Segment: Enterprise | Account ARR: $48,000
+Churn Risk: 8/10
+Summary: "Application crashes consistently when loading projects with more than 150 tasks on iOS 17.4. Affects 23 users across 3 departments. Team lead has flagged this as a blocker to continued mobile adoption. Account has 6 months remaining on contract."
+Last update: Escalated to Tier 2 engineering. No ETA provided to customer.
+
+[TKT-4389]
+Date: 2026-04-28 | Category: Onboarding | Priority: High
+Status: Resolved | Segment: SMB | Account ARR: $3,600
+Churn Risk: 6/10
+Summary: "New customer unable to complete workspace setup. Onboarding wizard froze at step 3 of 6 on Chrome browser. Customer restarted three times. Support walked through manual setup via screen share. Resolution time: 3.2 hours."
+Resolution: Manual workaround provided. Bug logged for engineering.
+
+[TKT-4401]
+Date: 2026-04-29 | Category: Data Sync | Priority: Urgent
+Status: Open | Segment: Mid-Market | Account ARR: $18,000
+Churn Risk: 9/10
+Summary: "Tasks marked complete on mobile not syncing to desktop view for 10-15 minutes. Caused client-facing incident — customer's end client saw overdue tasks on shared project view. Customer extremely upset. Requesting escalation to account manager."
+Last update: Engineering investigating. Customer sent formal complaint email.
+
+[TKT-4412]
+Date: 2026-04-30 | Category: Mobile - Notifications | Priority: High
+Status: In Progress | Segment: SMB | Account ARR: $2,400
+Churn Risk: 5/10
+Summary: "Push notifications delayed by 2-4 hours on Android devices. Affects entire 8-person team. Team using alternative messaging apps to compensate. Customer stated this is making TaskFlow unreliable for time-sensitive coordination."
+Last update: Workaround suggested (email notifications enabled). Customer not satisfied.
+
+[TKT-4398]
+Date: 2026-04-29 | Category: Billing | Priority: Normal
+Status: Resolved | Segment: SMB | Account ARR: $1,800
+Churn Risk: 3/10
+Summary: "Customer charged twice for April subscription due to payment method update issue. Requested refund. Refund processed within 24 hours. Customer satisfied with resolution."
+Resolution: Refund issued. Payment flow bug logged.
+
+[TKT-4435]
+Date: 2026-05-02 | Category: Mobile - Offline | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $12,000
+Churn Risk: 7/10
+Summary: "Field team made 3 hours of task updates in offline mode during site visit. All changes lost upon reconnection. Second occurrence this month. Customer has 8 field users who rely on offline capability. Considering switching to competitor."
+Last update: Known bug. Engineering backlog. No fix date confirmed.
+
+[TKT-4447]
+Date: 2026-05-03 | Category: Integrations | Priority: Normal
+Status: Resolved | Segment: Enterprise | Account ARR: $72,000
+Churn Risk: 2/10
+Summary: "Salesforce integration failing to sync opportunity data after CRM update. Support identified API version mismatch. Updated connector resolved the issue."
+Resolution: Connector updated. Customer satisfied.
+
+[TKT-4452]
+Date: 2026-05-04 | Category: Onboarding | Priority: High
+Status: In Progress | Segment: Mid-Market | Account ARR: $9,600
+Churn Risk: 6/10
+Summary: "Team of 35 users onboarding. Bulk invitation email failing — 12 of 35 invitations not delivered. IT team confirmed emails not reaching corporate inbox. SPF/DKIM configuration issue suspected."
+Last update: Infrastructure team investigating. Customer using manual invite workaround.
+
+[TKT-4461]
+Date: 2026-05-05 | Category: Performance | Priority: High
+Status: Open | Segment: Enterprise | Account ARR: $96,000
+Churn Risk: 8/10
+Summary: "Dashboard load time exceeding 45 seconds when viewing portfolio with 300+ active projects. Unacceptable for executive reporting use case. CTO has been informed and is monitoring. Contract renewal in 4 months."
+Last update: Performance team identified database query issue. Fix in next sprint.
+
+[TKT-4468]
+Date: 2026-05-06 | Category: Mobile - Login | Priority: Urgent
+Status: Resolved | Segment: SMB | Account ARR: $4,200
+Churn Risk: 4/10
+Summary: "Android app v4.1.8 update causing login failure. Blank screen after credential entry. Affected entire 12-person team for 6 hours. Hotfix deployed. All users now able to log in."
+Resolution: Hotfix v4.1.9 deployed. Customer notified.
+
+[TKT-4471]
+Date: 2026-05-06 | Category: Mobile - Login | Priority: Urgent
+Status: Resolved | Segment: Mid-Market | Account ARR: $14,400
+Churn Risk: 5/10
+Summary: "Same Android v4.1.8 login failure as TKT-4468. 28 users locked out for 4 hours during business-critical sprint planning session. Customer requesting service credit."
+Resolution: Hotfix deployed. Service credit of $200 issued. Customer acknowledged.
+
+[TKT-4479]
+Date: 2026-05-07 | Category: Feature Request | Priority: Normal
+Status: Logged | Segment: Enterprise | Account ARR: $60,000
+Churn Risk: 2/10
+Summary: "Customer requesting Gantt chart view in mobile app. Currently available on desktop only. This is the third request from this account in 6 months. Account is a strong advocate but mobile limitation is becoming frustration point."
+Last update: Logged in product roadmap. No committed timeline.
+
+[TKT-4483]
+Date: 2026-05-07 | Category: Onboarding | Priority: Normal
+Status: Resolved | Segment: SMB | Account ARR: $1,200
+Churn Risk: 7/10
+Summary: "Day 4 customer unable to understand workspace vs project hierarchy. No in-app explanation found. Support explained via chat. Customer stated they almost cancelled during confusion period."
+Resolution: Explanation provided. Help article link shared. Customer continued.
+
+[TKT-4491]
+Date: 2026-05-08 | Category: Data Sync | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $21,600
+Churn Risk: 8/10
+Summary: "Custom field values not syncing between mobile and desktop. Field team updates dropdowns on mobile, desktop shows stale values. Causing reporting inaccuracies in weekly status pack. Executive escalation received."
+Last update: Engineering confirmed as regression from v4.1.8. Fix targeted for next release.
+
+[TKT-4497]
+Date: 2026-05-09 | Category: Permissions | Priority: Normal
+Status: Resolved | Segment: Enterprise | Account ARR: $84,000
+Churn Risk: 1/10
+Summary: "Admin unable to restrict view-only users from downloading attachments. Permission settings not granular enough for compliance requirement. Workaround provided using project-level settings."
+Resolution: Workaround accepted. Feature request logged for granular attachment permissions.
+
+[TKT-4503]
+Date: 2026-05-09 | Category: Mobile - Performance | Priority: High
+Status: Open | Segment: SMB | Account ARR: $3,000
+Churn Risk: 6/10
+Summary: "TaskFlow consuming 35-40% battery per 2-hour session on iPhone 14. Customer has confirmed via Settings > Battery. Background app refresh disabled but issue persists. Team of 6 all reporting same issue."
+Last update: Flagged to mobile engineering. Investigation ongoing.
+
+[TKT-4511]
+Date: 2026-05-10 | Category: Onboarding | Priority: High
+Status: In Progress | Segment: Mid-Market | Account ARR: $16,800
+Churn Risk: 7/10
+Summary: "CSV import failing silently for new customer. 200 tasks attempted to import, 0 imported, no error message shown. Customer spent 4 hours troubleshooting before raising ticket. Encoding issue identified in import parser."
+Last update: Engineering fix in progress. Manual import workaround provided.
+
+[TKT-4518]
+Date: 2026-05-11 | Category: Mobile - Crash | Priority: Urgent
+Status: Open | Segment: Enterprise | Account ARR: $120,000
+Churn Risk: 9/10
+Summary: "VP of Delivery experienced app crash during live client presentation on iPad. Project status review meeting disrupted in front of 15 client stakeholders. Formal complaint filed. Customer requesting emergency call with product leadership."
+Last update: Account flagged as critical. CSM engaged. VP of Product notified.
+
+[TKT-4524]
+Date: 2026-05-11 | Category: Billing | Priority: Normal
+Status: Resolved | Segment: SMB | Account ARR: $2,400
+Churn Risk: 2/10
+Summary: "Customer on annual plan requesting proration for 2 seats removed mid-cycle. Billing team processed credit. Customer satisfied."
+Resolution: Credit applied to next invoice.
+
+[TKT-4531]
+Date: 2026-05-12 | Category: Integrations | Priority: High
+Status: In Progress | Segment: Mid-Market | Account ARR: $19,200
+Churn Risk: 5/10
+Summary: "GitHub integration not creating TaskFlow tasks from pull requests since last webhook update. Engineering team uses this automation daily. 3 days of manual workaround in place."
+Last update: Webhook endpoint update identified. Fix being tested.
+
+[TKT-4538]
+Date: 2026-05-12 | Category: Feature Request | Priority: Normal
+Status: Logged | Segment: SMB | Account ARR: $4,800
+Churn Risk: 3/10
+Summary: "Customer requesting time tracking widget on mobile app. Available on desktop. This is blocking their field team from logging hours on-site. Workaround is to log on desktop at end of day which is inaccurate."
+Last update: Logged. Mobile time tracking on Q3 roadmap.
+
+[TKT-4542]
+Date: 2026-05-13 | Category: Mobile - Notifications | Priority: High
+Status: Open | Segment: Enterprise | Account ARR: $54,000
+Churn Risk: 6/10
+Summary: "Enterprise team of 85 users on Android reporting notification delays. Critical path tasks being missed because assignees not alerted in time. IT team has confirmed device-level settings are correct. Platform-level issue suspected."
+Last update: Mobile team investigating FCM delivery issue.
+
+[TKT-4549]
+Date: 2026-05-13 | Category: Performance | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $13,200
+Churn Risk: 7/10
+Summary: "Report generation taking 8-12 minutes for projects with more than 500 tasks. Used to take under 30 seconds. Performance degraded significantly after April platform update. Weekly leadership reports now delayed."
+Last update: Backend team identified N+1 query issue. Fix in next release cycle.
+
+[TKT-4557]
+Date: 2026-05-14 | Category: Onboarding | Priority: High
+Status: Open | Segment: SMB | Account ARR: $1,800
+Churn Risk: 8/10
+Summary: "Customer on day 6 of trial. Has not been able to successfully complete workspace setup. Three support tickets raised. Considering cancelling trial. Support team has been reactive only — no proactive outreach received."
+Last update: CSM assigned. Kickoff call scheduled for tomorrow.
+
+[TKT-4562]
+Date: 2026-05-14 | Category: Data Sync | Priority: Urgent
+Status: Open | Segment: Enterprise | Account ARR: $108,000
+Churn Risk: 9/10
+Summary: "Project status data on mobile showing previous day's state. 45-minute sync delay confirmed by engineering. Affects 60+ users. Executive dashboard used by C-suite showing stale data. Board meeting next week where this data will be presented."
+Last update: Emergency fix being prepared. Customer kept informed hourly.
+
+[TKT-4569]
+Date: 2026-05-15 | Category: Mobile - Features | Priority: Normal
+Status: Logged | Segment: Mid-Market | Account ARR: $10,800
+Churn Risk: 4/10
+Summary: "Customer unable to view or edit custom dashboards on mobile. Desktop dashboards render fully. Mobile shows simplified view only. Customer's field managers need dashboard access during site visits."
+Last update: Logged as mobile feature gap. No committed delivery date.
+
+[TKT-4574]
+Date: 2026-05-15 | Category: Permissions | Priority: Normal
+Status: Resolved | Segment: Enterprise | Account ARR: $66,000
+Churn Risk: 1/10
+Summary: "SSO configuration needed updating after customer's identity provider migration to Okta. Support walked through SAML reconfiguration. Resolved in 90 minutes."
+Resolution: SSO reconfigured. All users able to authenticate.
+
+[TKT-4578]
+Date: 2026-05-15 | Category: Mobile - Crash | Priority: Urgent
+Status: Open | Segment: SMB | Account ARR: $2,400
+Churn Risk: 7/10
+Summary: "App crashing on launch after iOS 18.1 update on iPhone 15 Pro. Customer and 3 team members all affected. Completely unable to access TaskFlow on mobile. Desktop access confirmed working."
+Last update: Compatibility issue with iOS 18.1 confirmed. Hotfix in progress.
+
+[TKT-4583]
+Date: 2026-05-16 | Category: Onboarding | Priority: Normal
+Status: Resolved | Segment: Mid-Market | Account ARR: $8,400
+Churn Risk: 3/10
+Summary: "New user confused by permission levels during team setup. Accidentally set all team members to admin. Support walked through permission hierarchy and corrected the setup."
+Resolution: Permissions corrected. Customer educated on role types.
+
+[TKT-4589]
+Date: 2026-05-16 | Category: Feature Request | Priority: Normal
+Status: Logged | Segment: Enterprise | Account ARR: $90,000
+Churn Risk: 2/10
+Summary: "Customer requesting AI-powered task prioritisation feature. Would like TaskFlow to suggest which tasks to address first based on deadlines and dependencies. Interested in beta programme if available."
+Last update: Logged. Forwarded to AI product team.
+
+[TKT-4592]
+Date: 2026-05-16 | Category: Mobile - Performance | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $15,600
+Churn Risk: 6/10
+Summary: "Mobile app load time averaging 12-15 seconds on 4G connection. Desktop loads in under 2 seconds. Field team in areas with variable connectivity finding the app unusable when not on WiFi."
+Last update: Network performance team investigating asset loading optimisation.
+
+[TKT-4597]
+Date: 2026-05-17 | Category: Billing | Priority: Normal
+Status: Open | Segment: SMB | Account ARR: $3,600
+Churn Risk: 4/10
+Summary: "Customer confused about seat count billing. Was charged for 15 seats but only has 12 active users. Requesting audit of seat usage and credit for 3 unused seats."
+Last update: Billing team reviewing seat activity report.
+
+[TKT-4601]
+Date: 2026-05-17 | Category: Integrations | Priority: High
+Status: Open | Segment: Enterprise | Account ARR: $78,000
+Churn Risk: 5/10
+Summary: "Slack integration stopped posting task completion notifications. Affects 90 users who rely on Slack channel updates for project visibility. Slack OAuth token expired and auto-renewal failed."
+Last update: OAuth renewal flow being fixed. Manual token refresh workaround provided.
+
+[TKT-4607]
+Date: 2026-05-17 | Category: Data Sync | Priority: High
+Status: Open | Segment: SMB | Account ARR: $4,200
+Churn Risk: 7/10
+Summary: "Task comments added on mobile not appearing on desktop for other team members. Comments sync appears to be broken separately from task sync. 2-person team finding collaboration impossible."
+Last update: Comment sync bug confirmed. Fix targeted for next patch release.
+
+[TKT-4612]
+Date: 2026-05-18 | Category: Performance | Priority: Urgent
+Status: Open | Segment: Enterprise | Account ARR: $132,000
+Churn Risk: 8/10
+Summary: "Complete platform slowdown affecting all users in EMEA region between 09:00-11:00 GMT. Page loads taking 30+ seconds. Suspected CDN issue in EU data centre. 200+ users affected. Business-critical morning workflows disrupted for 3 consecutive days."
+Last update: Infrastructure team investigating CDN routing. Customer updated every 2 hours.
+
+[TKT-4618]
+Date: 2026-05-18 | Category: Onboarding | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $11,400
+Churn Risk: 8/10
+Summary: "Customer 2 weeks into subscription. Zero value realised. Setup still incomplete. Three support tickets raised. No CSM assigned. Customer explicitly stated they will cancel if not contacted by a human within 24 hours."
+Last update: CSM assignment escalated to Customer Success leadership.
+
+[TKT-4623]
+Date: 2026-05-18 | Category: Mobile - Offline | Priority: High
+Status: Open | Segment: Mid-Market | Account ARR: $7,200
+Churn Risk: 6/10
+Summary: "Field surveyors need reliable offline access. Made 2 hours of survey data entries offline. Changes not saved on reconnect for the second time this month. Team losing confidence in the tool."
+Last update: Known offline sync bug. Engineering prioritisation requested by CSM.
+
+[TKT-4629]
+Date: 2026-05-19 | Category: Feature Request | Priority: Normal
+Status: Logged | Segment: SMB | Account ARR: $2,400
+Churn Risk: 3/10
+Summary: "Customer requesting recurring task automation on mobile. Can set up recurring tasks on desktop but automation doesn't trigger correctly when managed from mobile app."
+Last update: Logged. Mobile automation parity on roadmap.
+
+[TKT-4634]
+Date: 2026-05-19 | Category: Mobile - Crash | Priority: High
+Status: Open | Segment: SMB | Account ARR: $3,600
+Churn Risk: 7/10
+Summary: "Photo attachment upload crashing app on both iOS and Android. Construction company using TaskFlow to document site progress. Photo upload is their primary mobile use case. Team of 9 affected."
+Last update: Photo upload crash confirmed as regression. Hotfix being prepared.
+
+[TKT-4639]
+Date: 2026-05-19 | Category: Billing | Priority: Normal
+Status: Resolved | Segment: Enterprise | Account ARR: $48,000
+Churn Risk: 1/10
+Summary: "Annual renewal invoice needed PO number added before processing. Billing team updated invoice within 2 hours. Customer satisfied."
+Resolution: Invoice updated and resent.
+
+
+================================================================
+SECTION 4 — CHURN RISK ACCOUNTS
+================================================================
+Risk score: 1 (low) to 10 (critical)
+Threshold for intervention: Score 7+
+================================================================
+
+CRITICAL RISK — SCORE 8-10
+----------------------------
+
+[CHURN-001]
+Account: Meridian Construction Group
+Segment: Enterprise | ARR: $120,000 | Tenure: 22 months
+Churn Risk Score: 9/10 | Renewal: 3 months
+Open tickets: 3 (2 Urgent, 1 High)
+NPS score: 4 | Last login: Today
+Primary risk: App crashed during live client presentation (TKT-4518).
+Formal complaint filed. VP of Delivery personally affected.
+Exec escalation: VP of Product notified. Emergency call scheduled.
+Recommended action: Immediate VP-level outreach. Service credit.
+Commit to mobile stability fix timeline within 48 hours.
+
+[CHURN-002]
+Account: Axon Financial Partners
+Segment: Enterprise | ARR: $108,000 | Tenure: 18 months
+Churn Risk Score: 9/10 | Renewal: 6 months
+Open tickets: 2 (1 Urgent, 1 High)
+NPS score: 5 | Last login: Yesterday
+Primary risk: 45-minute sync delay affecting C-suite dashboard
+before board meeting (TKT-4562). Executive visibility broken.
+Exec escalation: CTO informed by customer. Emergency fix in progress.
+Recommended action: Dedicated engineering contact. Daily updates.
+Guarantee fix before board meeting date.
+
+[CHURN-003]
+Account: Vantage Logistics Ltd
+Segment: Mid-Market | ARR: $21,600 | Tenure: 14 months
+Churn Risk Score: 9/10 | Renewal: 2 months
+Open tickets: 2 (both High)
+NPS score: 3 | Last login: 3 days ago
+Primary risk: Data sync failure caused client-facing incident
+(TKT-4401). Customer submitted formal complaint. Evaluating
+competitors. Renewal in 60 days.
+Exec escalation: Account manager alerted.
+Recommended action: Emergency account review call. Service credit.
+Concrete fix timeline required before renewal conversation.
+
+[CHURN-004]
+Account: Brightstone Consulting
+Segment: Enterprise | ARR: $96,000 | Tenure: 31 months
+Churn Risk Score: 8/10 | Renewal: 4 months
+Open tickets: 1 (High)
+NPS score: 6 | Last login: Today
+Primary risk: Dashboard load time 45 seconds for 300+ project
+portfolio (TKT-4461). CTO monitoring. Long-tenure customer
+at risk for first time.
+Exec escalation: CSM flagged to VP Customer Success.
+Recommended action: Performance fix commitment with date.
+Executive business review to demonstrate roadmap investment.
+
+[CHURN-005]
+Account: NovaCrest Developments
+Segment: Enterprise | ARR: $132,000 | Tenure: 8 months
+Churn Risk Score: 8/10 | Renewal: 10 months
+Open tickets: 1 (Urgent)
+NPS score: 5 | Last login: Today
+Primary risk: EMEA platform slowdown 3 consecutive mornings
+(TKT-4612). 200+ users affected. New customer, not yet seeing
+full value. High cancel risk if reliability not established.
+Exec escalation: Infrastructure and CS both engaged.
+Recommended action: SLA compensation. Proactive communication
+plan. Dedicated technical account manager for 90 days.
+
+[CHURN-006]
+Account: Harlow Digital Agency
+Segment: SMB | ARR: $3,600 | Tenure: 4 months
+Churn Risk Score: 8/10 | Renewal: 8 months
+Open tickets: 1 (High)
+NPS score: 2 | Last login: 5 days ago
+Primary risk: Onboarding never completed. 2 weeks in with zero
+value realised. No CSM assigned. Explicit cancellation threat
+(TKT-4618).
+Exec escalation: CS leadership alerted.
+Recommended action: Human outreach within 24 hours. Free
+onboarding session. Consider 30-day extension.
+
+[CHURN-007]
+Account: PeakField Surveys
+Segment: Mid-Market | ARR: $12,000 | Tenure: 11 months
+Churn Risk Score: 7/10 | Renewal: 7 months
+Open tickets: 1 (High)
+NPS score: 4 | Last login: 4 days ago
+Primary risk: Offline mode data loss occurring repeatedly
+(TKT-4435). Field team losing confidence. Mentioned competitor
+evaluation in ticket.
+Exec escalation: None yet.
+Recommended action: CSM outreach. Acknowledge known bug.
+Provide ETA for fix. Consider interim data backup workaround.
+
+[CHURN-008]
+Account: Redline Marketing Group
+Segment: Mid-Market | ARR: $13,200 | Tenure: 16 months
+Churn Risk Score: 7/10 | Renewal: 5 months
+Open tickets: 1 (High)
+NPS score: 5 | Last login: 2 days ago
+Primary risk: Report generation degraded from 30 seconds to
+8-12 minutes after April update (TKT-4549). Weekly leadership
+reporting now unreliable.
+Exec escalation: None yet.
+Recommended action: Fix timeline commitment. Offer manual
+report generation as interim support.
+
+[CHURN-009]
+Account: Summitline Construction
+Segment: SMB | ARR: $3,600 | Tenure: 6 months
+Churn Risk Score: 7/10 | Renewal: 6 months
+Open tickets: 1 (High)
+NPS score: 3 | Last login: 6 days ago
+Primary risk: Photo upload crash (TKT-4634). Primary mobile
+use case is site photo documentation. Entire team blocked.
+Exec escalation: None yet.
+Recommended action: Hotfix priority. Proactive customer
+communication when fix deployed.
+
+[CHURN-010]
+Account: Stratford Advisory Partners
+Segment: Mid-Market | ARR: $11,400 | Tenure: 2 weeks
+Churn Risk Score: 8/10 | Renewal: 11.5 months
+Open tickets: 3 (all High)
+NPS score: N/A (too new) | Last login: Yesterday
+Primary risk: Early-stage customer. Setup not complete.
+No CSM contact. Explicit 24-hour ultimatum issued (TKT-4618).
+Exec escalation: CS leadership alerted.
+Recommended action: CSM contact today. Complimentary
+onboarding session. This account is at imminent cancel risk.
+
+HIGH RISK — SCORE 6-7
+-----------------------
+
+[CHURN-011]
+Account: Vertex Field Services
+Segment: Mid-Market | ARR: $21,600 | Tenure: 9 months
+Churn Risk Score: 7/10 | Renewal: 9 months
+Open tickets: 1 (High)
+NPS score: 6 | Last login: Yesterday
+Primary risk: Custom field sync regression from v4.1.8
+causing reporting inaccuracies (TKT-4491).
+Recommended action: Fix ETA. Weekly check-in until resolved.
+
+[CHURN-012]
+Account: Clearpath Media
+Segment: SMB | ARR: $4,200 | Tenure: 8 months
+Churn Risk Score: 7/10 | Renewal: 4 months
+Open tickets: 2 (1 High, 1 Normal)
+NPS score: 4 | Last login: 3 days ago
+Primary risk: Comment sync broken on mobile. 2-person
+team unable to collaborate effectively (TKT-4607).
+Recommended action: Patch fix prioritisation. CSM call.
+
+[CHURN-013]
+Account: Galloway Digital Solutions
+Segment: SMB | ARR: $3,000 | Tenure: 7 months
+Churn Risk Score: 6/10 | Renewal: 5 months
+Open tickets: 1 (High)
+NPS score: 5 | Last login: Today
+Primary risk: Excessive battery drain on mobile (TKT-4503).
+Team of 6 all affected.
+Recommended action: Engineering investigation update.
+Proactive outreach when fix available.
+
+[CHURN-014]
+Account: Keystone Project Partners
+Segment: Mid-Market | ARR: $15,600 | Tenure: 12 months
+Churn Risk Score: 6/10 | Renewal: 12 months
+Open tickets: 1 (High)
+NPS score: 6 | Last login: 2 days ago
+Primary risk: Mobile app 12-15 second load time on 4G
+(TKT-4592). Field team productivity impacted.
+Recommended action: Performance team escalation.
+
+[CHURN-015]
+Account: Ironside Retail Group
+Segment: Enterprise | ARR: $54,000 | Tenure: 20 months
+Churn Risk Score: 6/10 | Renewal: 8 months
+Open tickets: 1 (High)
+NPS score: 6 | Last login: Today
+Primary risk: Android notification delays for 85-person
+team (TKT-4542). Critical path tasks being missed.
+Recommended action: FCM fix priority. CSM engagement.
+
+
+================================================================
+SECTION 5 — AGENT PERFORMANCE & TEAM METRICS (May 2026)
+================================================================
+
+SUPPORT TEAM CAPACITY
+----------------------
+Total agents: 14 full-time
+Tickets per agent per day (May avg): 11.8  (healthy: 8-10)
+Agent utilisation rate: 118%  ← over capacity
+Overtime hours logged (May): 210 hours
+
+TOP PERFORMING AGENTS
+----------------------
+Agent: Maria S.  | CSAT: 4.8 | FCR: 52% | Tickets: 198
+Agent: James K.  | CSAT: 4.6 | FCR: 48% | Tickets: 212
+Agent: Priya N.  | CSAT: 4.5 | FCR: 45% | Tickets: 187
+
+AREAS NEEDING SUPPORT
+----------------------
+Mobile bug triage: Average resolution time 42 hours (target 24h)
+Onboarding tickets: 38% require Tier 2 escalation
+Sync issues: Complex to diagnose — avg 3.1 contacts per ticket
+
+ESCALATION REASONS (Tier 2)
+-----------------------------
+Engineering investigation required:  54%
+Account at churn risk:               28%
+Customer requested manager:          12%
+SLA breach:                           6%
+
+
+================================================================
+SECTION 6 — ESCALATION LOG (critical incidents, May 2026)
+================================================================
+
+[ESC-001] Date: 2026-05-11
+Incident: App crash during live client presentation
+Account: Meridian Construction Group ($120K ARR)
+Escalated to: VP of Product + Account Director
+Status: Emergency call scheduled. Fix commitment pending.
+
+[ESC-002] Date: 2026-05-14
+Incident: 45-minute sync delay affecting C-suite board prep
+Account: Axon Financial Partners ($108K ARR)
+Escalated to: Engineering Director + CSM Lead
+Status: Emergency fix in progress. Customer updated hourly.
+
+[ESC-003] Date: 2026-05-18
+Incident: EMEA platform slowdown day 3
+Account: NovaCrest Developments ($132K ARR)
+Escalated to: Infrastructure Lead + VP Customer Success
+Status: CDN routing fix in progress. SLA compensation approved.
+
+[ESC-004] Date: 2026-04-29
+Incident: Sync failure caused client-facing incident
+Account: Vantage Logistics Ltd ($21.6K ARR)
+Escalated to: Account Manager + Engineering
+Status: Formal complaint on file. Renewal at risk.
+
+[ESC-005] Date: 2026-05-18
+Incident: New customer 24-hour cancellation ultimatum
+Account: Stratford Advisory Partners ($11.4K ARR)
+Escalated to: CS Leadership
+Status: CSM assigned. Outreach today.
+
+
+================================================================
+SUPPORT ANALYST MASTER SUMMARY — QUICK REFERENCE
+================================================================
+
+HEADLINE METRICS
+----------------
+May ticket volume:         1,114  (up 25% MoM)
+Top category:              Mobile app bugs (30%, +41% MoM)
+Second category:           Onboarding & setup (19%, +34% MoM)
+FCR rate:                  34%    (target 45%)
+Avg resolution time:       28.4h  (target 24h)
+CSAT:                      3.6    (target 4.2)
+Team utilisation:          118%   (over capacity)
+
+CHURN RISK SUMMARY
+------------------
+Critical risk (8-10):  5 accounts | ARR at risk: $459,600
+High risk (6-7):       10 accounts | ARR at risk: $133,200
+Total ARR at risk:     $592,800 across 15 accounts
+
+TOP 3 URGENT ACTIONS
+---------------------
+1. Mobile crash hotfix — iOS 18.1 + photo upload (affects 4 accounts)
+2. Sync delay emergency fix — board meeting dependency (Axon, $108K)
+3. Onboarding CSM coverage — 2 accounts at imminent cancel risk
+
+SYSTEMIC ISSUES DRIVING VOLUME
+--------------------------------
+1. Mobile regression from v4.1.8 — single release causing
+   multi-category ticket surge (crashes, login, sync, notifications)
+2. Onboarding gap — no proactive CSM for Starter/Pro tier
+   generating repeat contacts and churn risk
+3. EMEA CDN performance — infrastructure issue driving enterprise
+   escalations in highest ARR segment
+================================================================
